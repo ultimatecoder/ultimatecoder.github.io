@@ -5,6 +5,8 @@ title: Book review 'i want 2 do project tell me wat 2 do'
 tag: books
 ---
 
+![i_want_2_do_project_tell_me_wat_2_do]({{ site.url}}/assets/images/book_image_i_want_2_do_project_tell_me_wat_2_do.jpg)
+
 ## One line review
 
 Inspirational book for students who are at a fresher level.
@@ -34,3 +36,5 @@ Following are a few of my observations:
 I would like to suggest following improvements to this book. Some references are repeatedly cited, I think they can be referenced commonly without repeating them at the end of chapter. Examples of source code is not written with a different font. It is good to have syntax highlighting for keywords of programming language used. While informing students on mailing list etiquette, it will be good to guide them about mail encryption technologies (GnuPG, etc) too. As a reader, I will prefer to have one common section of coding related guidelines rather than small section in many chapters.
 
 Overall this book deserves “must read” if you are a student or you are an experienced professional who don’t have much exposure to FOSS. The book is “worth reading” even if you are a contributor of any project. It clearly explains the initial steps of FOSS mentorship. The book is an independent piece of work and is not specific to any FOSS project or community. The guidelines given in the book are applicable for any FOSS community or project. I congratulate Shakthi for his inspirational writing. Such efforts are required to inspire upcoming generation.
+
+[Buy Amazon.in](http://www.amazon.in/want-project-tell-wat-do/dp/9351741877)
