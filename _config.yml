@@ -16,9 +16,10 @@
 title: Jaysinh's own heed
 email: jaysinhp@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I am a Full-stack developer by profession, Computer scientist by heart
+  and an Actor by gene. I write mostly on programming topics. Browse through
+  my blog posts to identify my test of writing.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jaysinhp
