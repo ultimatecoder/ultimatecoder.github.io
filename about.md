@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![my_image]({{ site.url}}/assets/images/my_profile_picture.jpg)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Hi, I am Full-stack developer by profession, Computer scientist by heart and
+Actor by gene. I speak at local events, meetup or any technical conferences.
+I love to conduct lectures on any specific topic for college students. I am
+organizer of PyKutch. You can consider innovative programming as one of my
+hobby. In my free time I try to digest top rated programming books recommended
+by goodreads.  I prefer to communicate via electronic mail, IRC over physical.
+I support The Free Software Foundation and always insist the point of user’s
+Freedom. I am astonished by the contribution of the GNU community and openly
+thank them for giving us such a useful things.
