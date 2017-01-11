@@ -7,172 +7,204 @@ tag: pythonexpress
 
 Beautiful 2017 has already started. While everybody is busy with preparing 
 resolutions for their new year I decided to look back and share my journey
-here. During my last year I conducted 13 workshops at various colleges of
-Gujarat and Rajasthan. 10 workshops were conducted targeting college students
-and 3 were presented for professionals. Gandhinagar and Ahmedabad received 4
-number of workshops individually. Did single workshop at Bhuj, Ajmer,
-Vadodara and New delhi. One workshop over Google Hangouts on Air.
+here.
 
-Following are the title of the topics:
+During my last year I conducted 13 workshops at various colleges of
+state Gujarat and Rajasthan. 10 workshops were conducted targeting college
+students and 3 were presented for professionals. Gandhinagar and Ahmedabad
+received 4 number of workshops individually. Did single workshop at Bhuj,
+Ajmer, Vadodara and New delhi. One over Google Hangouts on Air.
 
-* **Introduction to Django**
 
-* **My name is Python and I am not a terrorist**
+Graph
+------
 
-* **Beginning with Python**
+<link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/nv.d3.min.css">
 
-* **Let's learn Python**
+<style>
+    #chart svg {
+      height: 400px;
+    }
 
-* **Token based authentication system using JWT**
+    svg: {
+      display: block;
+    }
 
-Below is the list of places I visited for conducting this workshops:
+    svg text {
+      font: normal 8px Impact;
+    }
+</style>
 
-* [PG GTU Gandhinagar][pg_gtu]
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
 
-* [K.S.K.V. Kachchh University][dcm_kskvku]
+<script src="{{ site.url }}/assets/js/nv.d3.min.js"></script>
 
-* [Gujarat Polytechnic College, Gandhinagar][polytechnic_gandhinagar]
+<script>
 
-* [Parul University, Waghodia, Vadodara][parul_university]
+function GetData() {
+  return  [
+    {
+      "label": "Introduction to Django",
+      "value" : 1
+    },
+    {
+      "label": "My name is Python and I am not terrorist",
+      "value" : 1
+    },
+    {
+      "label": "Beginning with Python",
+      "value" : 2
+    },
+    {
+      "label": "Let's learn Python",
+      "value" : 5
+    },
+    {
+      "label": "Token based authentication system using JWT",
+      "value" : 4
+    },
+  ];
+}
 
-* [Nirma Technology University, Ahmedabad][nirma_university]
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLabels(true)
+      .labelType("value");
+
+  d3.select("#chart svg")
+      .datum(GetData())
+      .transition().duration(350)
+      .call(chart);
+
+  return chart;
+});
+
+</script>
+
+<div id="chart">
+  <svg></svg>
+</div>
+
+
+Photos
+-----------------
+Below is the list of colleges with a selfie with students:
+
+![PG GTU Gandhinagar]({{site.url}}/assets/images/pg_gtu.jpg)
+
+* At [PG GTU Gandhinagar](http://pgschool.gtu.ac.in/moodle/)
+
+* [K.S.K.V. Kachchh University](http://cs.kutchuni.edu.in/)
+
+![kskv_kachchh_university]({{site.url}}/assets/images/kskvku_photo.jpg)
+
+* [Gujarat Polytechnic College, Gandhinagar](http://www.gpgandhinagar.edu.in/)
+
+![Polytechnic Gandhinagar]({{site.url}}/assets/images/polytechnic_gandhinagar.jpg)
+
+* [Parul University, Waghodia, Vadodara](http://paruluniversity.ac.in/home/)
+
+![Parul University]({{site.url}}/assets/images/parul_university.jpg)
+
+* [Nirma Technology University, Ahmedabad](http://www.nirmauni.ac.in/)
+
+![Nirma University]({{site.url}}/assets/images/nirma_university.jpg)
 
 * [Startup Gujarat, Gandhinagar](http://the1947.com/)
 
+![Startup Gujarat]({{site.url}}/assets/images/startup_gujarat.jpg)
+
 * [Ahmedabad Web and Mobile developers meetup](https://www.meetup.com/Ahmedabad-Web-and-Mobile-Developers-Meetup/events/232699917/)
+
+![Ahmedabad Meetup]({{site.url}}/assets/images/ahmedabad_meetup.jpg)
 
 * [Dhirubhai Ambani Institute of Information and Communication Technology
 Gandhinagar](http://www.daiict.ac.in/)
 
+![DAIICT]({{site.url}}/assets/images/daiict.jpg)
+
 * [Government Women Engineering College Ajmer](http://www.gweca.ac.in/web/)
 
-* [PyCon India, New Delhi][pycon_india_2016])
+![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
+
+* [AEG Ahmedabad]()
+
+![AEG Ahmedabad]({{site.url}}/assets/images/aeg_ahmedabad.jpg)
+
+* [PyCon India, New Delhi][pycon_india_2016]
+
+![Pycon India]({{site.url}}/assets/images/pycon_india.jpg)
 
 * [Mozilla Maker Party Ahmedabad](https://reps.mozilla.org/e/maker-party-gujarat/)
 
+![Macker Party]({{site.url}}/assets/images/macker_party.jpg)
 
-Conferences
-###########
-
-[PyDelhi Conf][pydelhi_conf]
------------------------------------------------
-
-It was nice experience to attend [PyDelhi conf][pydelhi_conf] at
-[JNU, New Delhi](http://www.jnu.ac.in/SCSS/). The event was organized by
-[PyDelhi community](https://pydelhi.org/). I got chance to meet many
-interesting people during this small event.
-
-Django girls Ahmedabad
--------------------------
-
-I volunteered at [Django girls Ahmedabad](https://djangogirls.org/ahmedabad/)
-as a Django mentor. This event happened at
-[CIIE, IIM Ahmedabad](http://www.ciie.co/). There were quit good number of
-participats were there. I received two students which I enjoyed teaching
-during the workshop.
-
-
-PyCon India
------------
-
-I volunteered Devsprint section of [PyCon India 2016][pycon_india_2016].
-Volunteering for such big event gives lot of experience. Volunteering for
-section like 
-
-
-[PyKutchchh](http://www.ciie.co/)
----------------------------------
-
-I organized one day Python Conference at Bhuj named [PyKutch][pykutch]
-
-In conclusion I conducted 1 workshop per month. I enjoyed every moment of 2016.
-
-I was jury at DAIICT hackthon IEEE.
 
 Facilities I received while conducting workshops
 ------------------------------------------------
 
-Places which were quit far from my town has provided travelling allowance to
-me. Which I took because it I felt there is nothing wrong in taking that. Some
-colleges arranged afternoon meal for me. I happy accepted that becuase finding
-other option during short brack at unknown place is quit time consuming. There
-were few colleges which gave cash cover as good will from their side. That I 
-never decided to accept in my life. The reason I don't take money from any
-educational institute is they sometimes devide that fee to number of students
-attending workshop. I don't feel right to take money from the pocket of any 
-students. Still some college claimed they are giving from their grants and
-not taking anything from students. I took that money and donated each to
-"arranged Krishna Vrudhashram"][krishna_vrudhashram]
+The colleges which were settled far from my town provided a travelling allowance
+for me. Which I accepted because I felt there is nothing wrong in taking such
+help. Some colleges arranged an afternoon meal for me. I happily accepted that
+because finding another option during short breaks at unknown place is quite
+time consuming. There were few colleges which gave cash covers as a good will.
+That I never decided to accept in my lifespan.  The reason I don’t accept
+money from any educational institute is they sometimes charge students for
+raising that money.  I don’t feel good to take money from the pocket of any
+student. Still some college claimed that the money belongs to their grants and
+not raised from students. I took that money at that time and donated each to
+[Krishna Vrudhashram](http://www.krishnavriddhashram.org/) located at
+Gandhinagar, Gujarat.
 
-People travelled with me during this journy
--------------------------------------------
 
-* Smit Thacker
-
-* Mehul Prajapati
-
-* Shivani Sharma
-
-* Pranjal Vyas
-
-* Parthvi Vala
-
-* Tushar Gohil
-
-Python Express Ahmedabad
-------------------------
-
-Now, we have Python Express group whos motive is to teach Python to nearby colleges. We are connected with Telegram group.
-
-You want to schedule Python workshop at your college?
------------------------------------------------------
-
-Materials used
+Python Express
 --------------
 
-* Slides
-
-* Python Kit
-
-* Excercises
-
-* Books used
-
-Goodies received
------------------
-
-During this PyCon, I received large bunch of Python Express stickers from
-Vijay sir. It will help me to motivate students. I received Python Express
-T shirts for each of us.
-
-My experience
--------------
-I want to conclude my experience with only one sentence. **Teaching is the
-best way to learn.**
+Such contributions would have not possible without Python Express. Python
+Express is a platform to collaborate colleges, students with Python tutors
+across India. It is supervised and funded by the [Python Software Society of
+India](https://pssi.org.in/).
 
 
-What is Python Express?
------------------------
+### Python Express Ahmedabad
 
-[PythonExpress]() is moment initiated by PSSI. is online tool which helps colleges
-to schedule Python workshop to their college. The tool is prepred by
-[Python Software Society of India](https://pssi.org.in/).
+At present, we have a Python Express Ahmedabad group whose motive is to teach
+Python to nearby colleges. We are linked up with
+[Telegram Messenger](https://telegram.org/). During this PyCon, I got a large
+bunch of Python Express stickers from Vijay sir. The stickers will be a lot to
+motivate pupils. We also received Python Express volunteer T-shirts. If you are
+living nearby Ahmedabad and want to contribute to this movement, please touch
+me over email.
 
-The moment initiated by PSSI with a tag Python month. The Python month was
-celebrated before one month of the Pycon India. During this year, member of
-community spare little time and reaches near by colleges for conducting
-python workshops. Purpose of this event is to encourage students to join PyCon India.
 
-Early Activities
-----------------
+**"Teaching is the best way to learn."**
+----------------------------------------
+
+I am inspired from curious questions raised by scholars. They forced me to
+plunge deep into the subject. It was little difficult to afford such a huge
+hours with having a full time job, but after observing my personal
+improvements I consider this as a good investment.
+
+In summary, I took 1 workshop every month during the year 2016 which is nearly
+90% more than what I did in the year 2015.
+
+You can download [Slides here](https://goo.gl/vTBhTh) and
+[Python Kit here](https://drive.google.com/file/d/0B_TmiicGbqjHb2ZGcE5QYmtXRHc/view?usp=sharing).
+
+
+### Do you want to invite me for your college?
+
+First step is to take briefing your college administration with Python Express
+to get the permission. Once they agree register your college at
+[Python Express][python_express] and create the workshop request that’s it!
+
+I will advice to schedule workshop on weekends. Saturday is usually the best
+day for me. Facilities like Projector, Microphone and speakers if number of
+attendees are more than 60. College Computer Labs, the auditorium is the best
+place for such events.
 
 [python_express]: https://pythonexpress.in/
-[pykutch]: http://cs.kutchuni.edu.in/PyKutch-2016/
-[krishna_vrudhashram]: http://www.krishnavriddhashram.org/
-[pg_gtu]: http://pgschool.gtu.ac.in/moodle/
-[dcm_kskvku]: http://cs.kutchuni.edu.in/
-[polytechnic_gandhingar]: http://www.gpgandhinagar.edu.in/
-[parul_university]: http://paruluniversity.ac.in/home/
-[nirma_university]: http://www.nirmauni.ac.in/
 [pycon_india_2016]: http://www.ciie.co/
 [pydelhi_conf]: https://conference.pydelhi.org/

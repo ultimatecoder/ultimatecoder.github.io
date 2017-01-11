@@ -39,4 +39,3 @@
 
 * Your exprience:
   * Teaching is the best way to learn
-
