@@ -1,23 +1,18 @@
 ---
 layout: post
-categories: python express
 title: 2016 A year dedicated to Python Workshops
-tag: pythonexpress
+tag: pythonworkshop
 ---
 
 Beautiful 2017 has already started. While everybody is busy with preparing 
 resolutions for their new year I decided to look back and share my journey
 here.
 
-During my last year I conducted 13 workshops at various colleges of
-state Gujarat and Rajasthan. 10 workshops were conducted targeting college
-students and 3 were presented for professionals. Gandhinagar and Ahmedabad
-received 4 number of workshops individually. Did single workshop at Bhuj,
-Ajmer, Vadodara and New delhi. One over Google Hangouts on Air.
+After attending [PyCon India 2015](https://in.pycon.org/2015/) India 2015 I
+took an oath to spread the word of Python. It was looking simple at first
+glance with a guess of getting less invitations. But the estimate went wrong.
+Below is the summary of yearly progress highlight with word of experience.
 
-
-Graph
-------
 
 <link rel="stylesheet" type="text/css" href="{{site.url}}/assets/css/nv.d3.min.css">
 
@@ -33,6 +28,11 @@ Graph
     svg text {
       font: normal 8px Impact;
     }
+
+    .center {
+      text-align: center
+    }
+
 </style>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js" charset="utf-8"></script>
@@ -88,75 +88,28 @@ nv.addGraph(function() {
 </div>
 
 
-Photos
------------------
-Below is the list of colleges with a selfie with students:
-
-![PG GTU Gandhinagar]({{site.url}}/assets/images/pg_gtu.jpg)
-
-* At [PG GTU Gandhinagar](http://pgschool.gtu.ac.in/moodle/)
-
-* [K.S.K.V. Kachchh University](http://cs.kutchuni.edu.in/)
-
-![kskv_kachchh_university]({{site.url}}/assets/images/kskvku_photo.jpg)
-
-* [Gujarat Polytechnic College, Gandhinagar](http://www.gpgandhinagar.edu.in/)
-
-![Polytechnic Gandhinagar]({{site.url}}/assets/images/polytechnic_gandhinagar.jpg)
-
-* [Parul University, Waghodia, Vadodara](http://paruluniversity.ac.in/home/)
-
-![Parul University]({{site.url}}/assets/images/parul_university.jpg)
-
-* [Nirma Technology University, Ahmedabad](http://www.nirmauni.ac.in/)
-
-![Nirma University]({{site.url}}/assets/images/nirma_university.jpg)
-
-* [Startup Gujarat, Gandhinagar](http://the1947.com/)
-
-![Startup Gujarat]({{site.url}}/assets/images/startup_gujarat.jpg)
-
-* [Ahmedabad Web and Mobile developers meetup](https://www.meetup.com/Ahmedabad-Web-and-Mobile-Developers-Meetup/events/232699917/)
-
-![Ahmedabad Meetup]({{site.url}}/assets/images/ahmedabad_meetup.jpg)
-
-* [Dhirubhai Ambani Institute of Information and Communication Technology
-Gandhinagar](http://www.daiict.ac.in/)
-
-![DAIICT]({{site.url}}/assets/images/daiict.jpg)
-
-* [Government Women Engineering College Ajmer](http://www.gweca.ac.in/web/)
-
-![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
-
-* [AEG Ahmedabad]()
-
-![AEG Ahmedabad]({{site.url}}/assets/images/aeg_ahmedabad.jpg)
-
-* [PyCon India, New Delhi][pycon_india_2016]
-
-![Pycon India]({{site.url}}/assets/images/pycon_india.jpg)
-
-* [Mozilla Maker Party Ahmedabad](https://reps.mozilla.org/e/maker-party-gujarat/)
-
-![Macker Party]({{site.url}}/assets/images/macker_party.jpg)
+During my last year I conducted 13 workshops at various colleges of
+state Gujarat and Rajasthan. 10 workshops were conducted targeting college
+students and 3 were presented for professionals. Gandhinagar and Ahmedabad
+received 4 number of workshops individually. Did single workshop at Bhuj,
+Ajmer, Vadodara and New delhi. One over Google Hangouts on Air.
 
 
 Facilities I received while conducting workshops
 ------------------------------------------------
 
-The colleges which were settled far from my town provided a travelling allowance
-for me. Which I accepted because I felt there is nothing wrong in taking such
-help. Some colleges arranged an afternoon meal for me. I happily accepted that
-because finding another option during short breaks at unknown place is quite
-time consuming. There were few colleges which gave cash covers as a good will.
-That I never decided to accept in my lifespan.  The reason I don’t accept
-money from any educational institute is they sometimes charge students for
-raising that money.  I don’t feel good to take money from the pocket of any
-student. Still some college claimed that the money belongs to their grants and
-not raised from students. I took that money at that time and donated each to
-[Krishna Vrudhashram](http://www.krishnavriddhashram.org/) located at
-Gandhinagar, Gujarat.
+The colleges which were settled far from my town provided a travelling
+allowance for me. Which I accepted because I felt there is nothing wrong in
+taking such help. Some colleges arranged an afternoon meal for me. I happily
+accepted that because finding another option during short breaks at unknown
+place is quite time consuming. There were few colleges which gave cash covers 
+as a good will. That I never decided to accept in my lifespan. The reason I
+don’t accept money from any educational institute is they sometimes charge
+students for raising that money. I don’t feel good to take money from the
+pocket of any student. Still some college claimed that the money belongs to
+their grants and not raised from students. I took that money at that time and
+donated each to [Krishna Vrudhashram](http://www.krishnavriddhashram.org/)
+located at Gandhinagar, Gujarat.
 
 
 Python Express
@@ -194,6 +147,109 @@ You can download [Slides here](https://goo.gl/vTBhTh) and
 [Python Kit here](https://drive.google.com/file/d/0B_TmiicGbqjHb2ZGcE5QYmtXRHc/view?usp=sharing).
 
 
+Photos
+-----------------
+Below is the list of colleges with a selfie with students:
+
+![PG GTU Gandhinagar]({{site.url}}/assets/images/pg_gtu.jpg)
+
+<p class="center">
+  At <a href="http://pgschool.gtu.ac.in/moodle/">PG GTU Gandhinagar</a>
+</p>
+
+**- - -**
+
+![kskv_kachchh_university]({{site.url}}/assets/images/kskvku_photo.jpg)
+
+<p class="center">
+  At <a href="http://cs.kutchuni.edu.in/">K.S.K.V. Kachchh University</a>
+</p>
+
+**- - -**
+
+![Polytechnic Gandhinagar]({{site.url}}/assets/images/polytechnic_gandhinagar.jpg)
+
+<p class="center">
+  At <a href="http://www.gpgandhinagar.edu.in/">Gujarat Polytechnic College, Gandhinagar</a>
+</p>
+
+**- - -**
+
+![Parul University]({{site.url}}/assets/images/parul_university.jpg)
+
+<p class="center">
+  At <a href="http://paruluniversity.ac.in/home/">Parul University, Waghodia, Vadodara</a>
+</p>
+
+**- - -**
+
+![Nirma University]({{site.url}}/assets/images/nirma_university.jpg)
+
+<p class="center">
+  At <a href="http://www.nirmauni.ac.in/">Nirma Technology University, Ahmedabad</a>
+</p>
+
+**- - -**
+
+![Startup Gujarat]({{site.url}}/assets/images/startup_gujarat.jpg)
+
+<p class="center">
+  At <a href="http://the1947.com/">Startup Gujarat, Gandhinagar</a>
+</p>
+
+**- - -**
+
+![Ahmedabad Meetup]({{site.url}}/assets/images/ahmedabad_meetup.jpg)
+
+<p class="center">
+  At
+  <a href="https://www.meetup.com/Ahmedabad-Web-and-Mobile-Developers-Meetup/events/232699917/">
+    Ahmedabad Web and Mobile developers meetup
+  </a>
+</p>
+
+**- - -**
+
+![DAIICT]({{site.url}}/assets/images/daiict.jpg)
+
+<p class="center">
+  At <a href="http://www.daiict.ac.in/">Dhirubhai Ambani Institute of Information and Communication Technology
+  GandhinagarStartup Gujarat, Gandhinagar</a>
+</p>
+
+**- - -**
+
+![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
+
+<p class="center">
+  At <a href="http://www.gweca.ac.in/web/">Government Women Engineering College Ajmer</a>
+</p>
+
+**- - -**
+
+![Ahmedabad University]({{site.url}}/assets/images/aeg_ahmedabad.jpg)
+
+<p class="center">
+  At <a href="https://www.ahduni.edu.in/">Ahmedabad University</a>
+</p>
+
+**- - -**
+
+![Pycon India]({{site.url}}/assets/images/pycon_india.jpg)
+
+<p class="center">
+  At <a href="http://in.pycon.org/2016/">PyCon India, New Delhi</a>
+</p>
+
+**- - -**
+
+![Macker Party]({{site.url}}/assets/images/macker_party.jpg)
+
+<p class="center">
+  At <a href="https://reps.mozilla.org/e/maker-party-gujarat/">Mozilla Maker Party Ahmedabad</a>
+</p>
+
+
 ### Do you want to invite me for your college?
 
 First step is to take briefing your college administration with Python Express
@@ -206,5 +262,4 @@ attendees are more than 60. College Computer Labs, the auditorium is the best
 place for such events.
 
 [python_express]: https://pythonexpress.in/
-[pycon_india_2016]: http://www.ciie.co/
 [pydelhi_conf]: https://conference.pydelhi.org/
