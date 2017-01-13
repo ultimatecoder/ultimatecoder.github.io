@@ -98,27 +98,26 @@ Ajmer, Vadodara and New delhi. One over Google Hangouts on Air.
 Facilities I received while conducting workshops
 ------------------------------------------------
 
-The colleges which were settled far from my town provided a travelling
-allowance for me. Which I accepted because I felt there is nothing wrong in
-taking such help. Some colleges arranged an afternoon meal for me. I happily
-accepted that because finding another option during short breaks at unknown
-place is quite time consuming. There were few colleges which gave cash covers 
-as a good will. That I never decided to accept in my lifespan. The reason I
-don’t accept money from any educational institute is they sometimes charge
-students for raising that money. I don’t feel good to take money from the
-pocket of any student. Still some college claimed that the money belongs to
-their grants and not raised from students. I took that money at that time and
-donated each to [Krishna Vrudhashram](http://www.krishnavriddhashram.org/)
-located at Gandhinagar, Gujarat.
+The colleges which were settled far from my town provided travelling allowance
+for me. I accepted because I felt there is nothing wrong in taking such help.
+Some colleges arranged an afternoon meal for me. I happily accepted that
+because finding another option during short breaks at unknown place is quite
+time consuming. There were few colleges which gave cash covers as a good will.
+I have decided to not accept such cash because sometimes it comes from the
+pocket of students and I don’t feel good to take money from the pocket of any
+student. Still some colleges claimed that the money belongs to their grants and
+not raised from students. I took that money at that time and donated each to
+[Krishna Vrudhashram](http://www.krishnavriddhashram.org/) located at
+Gandhinagar, Gujarat.
 
 
 Python Express
 --------------
 
-Such contributions would have not possible without Python Express. Python
-Express is a platform to collaborate colleges, students with Python tutors
-across India. It is supervised and funded by the [Python Software Society of
-India](https://pssi.org.in/).
+Such contributions would have not possible without [Python
+Express][python_express]. Python Express is a platform to collaborate colleges,
+students with Python tutors across India. It is supervised and funded by the
+[Python Software Society of India](https://pssi.org.in/).
 
 
 ### Python Express Ahmedabad
@@ -128,8 +127,11 @@ Python to nearby colleges. We are linked up with
 [Telegram Messenger](https://telegram.org/). During this PyCon, I got a large
 bunch of Python Express stickers from Vijay sir. The stickers will be a lot to
 motivate pupils. We also received Python Express volunteer T-shirts. If you are
-living nearby Ahmedabad and want to contribute to this movement, please touch
-me over email.
+living nearby Ahmedabad and want to contribute to this movement, please get in
+touch over email.
+
+
+![Python Express Ahmedabad]({{site.url}}/assets/images/python_express_ahmedabad.jpg)
 
 
 **"Teaching is the best way to learn."**
@@ -149,7 +151,6 @@ You can download [Slides here](https://goo.gl/vTBhTh) and
 
 Photos
 -----------------
-Below is the list of colleges with a selfie with students:
 
 ![PG GTU Gandhinagar]({{site.url}}/assets/images/pg_gtu.jpg)
 
@@ -252,14 +253,16 @@ Below is the list of colleges with a selfie with students:
 
 ### Do you want to invite me for your college?
 
-First step is to take briefing your college administration with Python Express
-to get the permission. Once they agree register your college at
-[Python Express][python_express] and create the workshop request that’s it!
+First step is to brief your college administration with Python Express to get
+the permission. Once they agree register your college at [Python
+Express][python_express] and create the workshop request that’s it!
 
 I will advice to schedule workshop on weekends. Saturday is usually the best
 day for me. Facilities like Projector, Microphone and speakers if number of
 attendees are more than 60. College Computer Labs, the auditorium is the best
 place for such events.
+
+Waiting for nice invitations :)
 
 [python_express]: https://pythonexpress.in/
 [pydelhi_conf]: https://conference.pydelhi.org/
