@@ -38,3 +38,6 @@ I would like to suggest following improvements to this book. Some references are
 Overall this book deserves “must read” if you are a student or you are an experienced professional who don’t have much exposure to FOSS. The book is “worth reading” even if you are a contributor of any project. It clearly explains the initial steps of FOSS mentorship. The book is an independent piece of work and is not specific to any FOSS project or community. The guidelines given in the book are applicable for any FOSS community or project. I congratulate Shakthi for his inspirational writing. Such efforts are required to inspire upcoming generation.
 
 [Buy Amazon.in](http://www.amazon.in/want-project-tell-wat-do/dp/9351741877)
+
+
+###### Proofreaders: [Shakthi Kannan](http://shakthimaan.com/), [Dhavan Vaidya](http://codingquark.com/)

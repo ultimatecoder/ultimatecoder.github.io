@@ -264,5 +264,8 @@ place for such events.
 
 Waiting for nice invitations :)
 
+
+###### Proofreader: [Farhaan Bukhsh](https://farhaanbukhsh.wordpress.com/)
+
 [python_express]: https://pythonexpress.in/
 [pydelhi_conf]: https://conference.pydelhi.org/
