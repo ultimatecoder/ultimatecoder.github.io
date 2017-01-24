@@ -39,3 +39,6 @@ I realized it is good to have small and interested audience than having large
 and distracted audience. This group has nice experienced people in the
 GNU/Linux domain. If Chennai is your town, I will promote you to join this
 group and get involved.
+
+
+###### Proofreaders: [Shakthi Kannan](http://shakthimaan.com/), [Harsh Vardhan](https://github.com/vharsh)
