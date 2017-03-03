@@ -125,4 +125,8 @@ minutes to drive the change.
 * [Download
   PDF](http://archive.flossmanuals.net/_booki/command-line/command-line.pdf)
 
+
+###### Proofreader: [Dhavan Vaidya](http://codingquark.com/)
+
+
 [vim]: http://vim.org/
