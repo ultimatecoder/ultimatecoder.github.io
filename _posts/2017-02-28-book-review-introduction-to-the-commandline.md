@@ -119,7 +119,7 @@ Below is the correct code
 args=$1
 {% endhighlight %}
 
-I myself has corrected the typographical error in the book.  This change will be
+I myself have corrected the typographical error in the book.  This change will be
 published maybe in the next release of this book.
 
 If you are encountering any mistakes while reading, I request you to fix the
