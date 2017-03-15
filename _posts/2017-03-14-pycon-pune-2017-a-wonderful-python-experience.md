@@ -10,7 +10,7 @@ tag: python conference
 The conference is worth to attend if you are a student, programmer or a
 hobbyist.  You are swag-hungry then don't expect much as a swag from this
 conference. You are a Devsprint lover, then this conference has the coolest
-Devsprint.
+Devsprint. A great number of keynotes speackers are invited for this conference.
 
 
 ## Detailed Experience
@@ -24,8 +24,8 @@ from the conference days. The volunteer meeting was happening at Reserved-bit.
 
 [Reserved-bit][reservedbit] is the best hackerspace I have ever come across. It
 has a large collection of programmable boards. You will find boards like
-[RPie](https://en.wikipedia.org/wiki/Raspberry_Pi), [Bana
-Pi](,https://en.wikipedia.org/wiki/Banana_Pi),
+[Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi), [Bana
+Pi](https://en.wikipedia.org/wiki/Banana_Pi),
 [Dragonboard](https://developer.qualcomm.com/hardware/dragonboard-410c),
 [Bigalbon](https://www.bigalsmods.com/product-p/1001.htm),
 [BBC-microbit](https://en.wikipedia.org/wiki/Micro_Bit) and the 3D printer. More
@@ -33,8 +33,8 @@ on, this space has a great collection of books on Compilers and Embedded
 programming. I managed to found few on Open source too. The owners are great
 hackers. You will love to interact with hacker [Siddhesh
 Poyarekar](https://siddhesh.in/). Hacker [Nisha
-Poyarekar](https://twitter.com/nisha_poyarekar) is leading the PyLadies
-community at Pune.
+Poyarekar](https://twitter.com/nisha_poyarekar) is volunteering the [PyLadies
+community](https://www.meetup.com/PyLadies-Pune/) at Pune.
 
 #### Pune to Mumbai
 
@@ -45,7 +45,8 @@ took almost 4.5 hours to reach Mumbai. Few more minutes to reach the airport.
 The road is impressively smooth. You will encounter beautiful mountains of
 [Lonavla](https://en.wikipedia.org/wiki/Lonavla). The task of moving from Pune
 to Mumbai airport, receive Katie and come back to Pune completed in almost 13
-hours. I left from Pune around 4.30 PM and came back nearby 5 AM morning.
+hours. I left from Pune around 4.30 PM and came back nearby 5 AM next day early
+morning.
 
 #### Illness during conference
 
@@ -68,18 +69,18 @@ I was pretty impressed with the keynote speakers of this conference.
 
 Katie is the O'Reilly author. Her
 [book](http://shop.oreilly.com/product/0636920024514.do) on Accessibility
-depicts her area of expertise. She is fun to talk. She likes to listen to
+depicts her area of expertise. She is fun to talk. She likes to listen about
 developer communities, writing and most importantly computer games. Her broad
 vision on product development is amazing. She is an avid reader. I enjoyed
 listening to her experience of being in India very first time.
 
 #### [Honza Kral](https://twitter.com/honzakral)
 
-Honza is the dude who loves to contribute on
+Honza is the dude who loves contributing to
 [Django](https://www.djangoproject.com/). He is the core contributor of Django
 too. He hacks on Python drivers at the [Elastic](https://www.elastic.co/). I was
 impressed with his suggestions on code design problem I was trying to solve from
-past few months.  His suggestions on code design are worth discussing. He is
+past few months.  His suggestions on code design are worth noticing. He is
 Vimmer and maintains little [vim](http://vim.org) plugins as a part of his
 interest.
 
@@ -88,7 +89,7 @@ interest.
 Stephen professes the Dismal Science of Economics. His knowledge is deep-rooted
 just like his beard. You will enjoy discussing on Computer science, books and
 his experience of programming. He is authoring few books written in the Japanese
-language. Stephen is [Emacser](https://www.gnu.org/s/emacs/).
+language. Stephen is [Emacsite](https://www.gnu.org/s/emacs/).
 
 #### [Terri Oda](https://twitter.com/terriko)
 
@@ -163,7 +164,7 @@ Turnbull and Florian Fuchs mentored for
   Devsprint at any other Python conference happening in India.
 
 * If you are a student, then this is the beginner friendly conference. You
-  should not be a worry to attend if are a Python noobs. You will receive a
+  should not be a worry to attend if you are a Python noobs. You will receive a
   student concession for the tickets too.
 
 * If you are a developer, coming to this conference will inspire you to grow
