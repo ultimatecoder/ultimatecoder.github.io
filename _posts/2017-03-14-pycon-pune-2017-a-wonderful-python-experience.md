@@ -5,6 +5,9 @@ date: "2017-03-14 18:18:02 +0530"
 tag: python conference
 ---
 
+![pycon_pune_group_photo]({{
+site.url}}/assets/images/pycon_pune_group_photo.jpg)
+
 ## tl;dr
 
 The conference is worth to attend if you are a student, programmer or a
@@ -35,6 +38,7 @@ hackers. You will love to interact with hacker [Siddhesh
 Poyarekar](https://siddhesh.in/). Hacker [Nisha
 Poyarekar](https://twitter.com/nisha_poyarekar) is volunteering the [PyLadies
 community](https://www.meetup.com/PyLadies-Pune/) at Pune.
+
 
 #### Pune to Mumbai
 
@@ -91,6 +95,9 @@ just like his beard. You will enjoy discussing on Computer science, books and
 his experience of programming. He is authoring few books written in the Japanese
 language. Stephen is [Emacsite](https://www.gnu.org/s/emacs/).
 
+![stephen_turnbull]({{
+site.url}}/assets/images/stephen_turnbull.jpg)
+
 #### [Terri Oda](https://twitter.com/terriko)
 
 Terri is a security nerd. She spent most of her time exploring tools at Intel.
@@ -99,6 +106,17 @@ Terri knows how to hide from the spying of the U.S. Government. She is leading
 [Python Software Foundation](https://www.python.org/psf/). Terri is PSF
 community service award winner. If you are a student and want to take part in
 GSoC choosing Python as your organization then She is the right person to talk.
+
+#### [Florian Fuchs](https://github.com/flofuchs)
+
+His knowledge on [ReST
+API](https://en.wikipedia.org/wiki/Representational_state_transfer) construction
+is the best. He is [Falcon](https://falconframework.org/) nerd too. I enjoyed
+discussing on various authentication mechanisms for ReST API with him.  He is
+the Red hatter.
+
+![gnu_mailman_team]({{
+site.url}}/assets/images/gnu_mailman_team.jpg)
 
 #### [Nick Coghlan](https://twitter.com/ncoghlan_dev)
 
@@ -115,13 +133,6 @@ conference. He is a Math teacher who teaches concepts of Mathematics using
 Python programming language. You should feel confident to speak with him on
 Python in Education and Mathematics with him.
 
-#### [Florian Fuchs](https://github.com/flofuchs)
-
-His knowledge on [ReST
-API](https://en.wikipedia.org/wiki/Representational_state_transfer) construction
-is the best. He is [Falcon](https://falconframework.org/) nerd too. I enjoyed
-discussing on various authentication mechanisms for ReST API with him.  He is
-the Red hatter.
 
 #### [John Hawley](https://github.com/warthog9)
 
@@ -132,6 +143,11 @@ considered as his part of interests.
 I am sad to declare that I was unable to attend any keynote speeches because of
 the illness. Mostly I rested at the hotel or talked with people during the
 conference days.
+
+
+![pycon_pune_2017_keynote_speackers]({{
+site.url}}/assets/images/pycon_pune_2017_keynote_speackers.jpg)
+
 
 #### Volunteer Party
 
@@ -156,6 +172,9 @@ contributing to [MicroPython](https://micropython.org/). Terr Oda, Stephen
 Turnbull and Florian Fuchs mentored for
 [GNU/Mailman](https://en.wikipedia.org/wiki/GNU_Mailman).
 
+
+![cpython_devsprint]({{
+site.url}}/assets/images/cpython_devsprint.jpg)
 
 #### Why to attend this conference?
 
