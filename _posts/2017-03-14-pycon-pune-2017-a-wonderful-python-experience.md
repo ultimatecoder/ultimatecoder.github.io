@@ -215,4 +215,8 @@ site.url}}/assets/images/cpython_devsprint.jpg)
   This section is helpful for communities and contributors to discuss
   interesting problems and think together.
 
+###### Proofreader: [Benaiah Mischenko][benaiah], [Chameleon][chameleon]
+
 [reservedbit]: https://reserved-bit.com
+[benaiah]: https://benaiah.me/
+[chameleon]: https://chameleon.kingdomofmysteries.xyz/
