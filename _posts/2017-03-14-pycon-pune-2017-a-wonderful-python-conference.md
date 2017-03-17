@@ -113,7 +113,7 @@ His knowledge on [ReST
 API](https://en.wikipedia.org/wiki/Representational_state_transfer) construction
 is the best. He is a [Falcon](https://falconframework.org/) nerd too. I enjoyed
 discussing various authentication mechanisms for ReST API with him.  He is a
-Redhatter.
+Red Hatter.
 
 ![gnu_mailman_team]({{
 site.url}}/assets/images/gnu_mailman_team.jpg)
@@ -123,8 +123,8 @@ site.url}}/assets/images/gnu_mailman_team.jpg)
 Nick listens more than he speaks. I will advise you to not disturb him if he is
 coding. He enjoys concentrating while coding. Getting his mentorship was a great
 experience. He has been contributing to [Core
-Python](https://github.com/python/cpython) for a few decades now.  You will
-enjoy discussing on interesting code compositions with him. He is a Red Hatter.
+Python](https://github.com/python/cpython) for a decade now.  You will enjoy
+discussing on interesting code compositions with him. He is a Red Hatter.
 
 #### [Praveen Patil](https://twitter.com/_gnovi)
 
@@ -158,7 +158,7 @@ allowed to take a sip of a beer.
 
 #### Devsprint
 
-Devsprint happen at the [Redhat Headquarters,
+Devsprint happen at the [Red Hat Headquarters,
 Pune](https://goo.gl/maps/mXeirzQhPFz). I found the building has tight security.
 You will find an individual pantry section dedicated to each department. We were
 instructed to hack at a huge cafeteria section. I myself contributed to Core
@@ -205,7 +205,7 @@ site.url}}/assets/images/cpython_devsprint.jpg)
   it. The conference attendees have to be satisfied with the conference T-shirt.
 
 * I observed there were fewer corporate stalls than at other Python conferences.
-  A stole from Reserved-bit, Redhat and PSF community stall was there.
+  A stole from Reserved-bit, Red Hat and PSF community stall was there.
 
 * A workshop section was completely missing. In my opinion, the workshop helps
   the beginners to start. There were a few topics which can be better
