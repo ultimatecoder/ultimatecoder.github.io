@@ -123,8 +123,8 @@ site.url}}/assets/images/gnu_mailman_team.jpg)
 Nick listens more than he speaks. I will advise you to not disturb him if he is
 coding. He enjoys concentrating while coding. Getting his mentorship was a great
 experience. He has been contributing to [Core
-Python](https://github.com/python/cpython) for a few decades now.  You will
-enjoy discussing on interesting code compositions with him. He is a Red Hatter.
+Python](https://github.com/python/cpython) for a decade now.  You will enjoy
+discussing on interesting code compositions with him. He is a Red Hatter.
 
 #### [Praveen Patil](https://twitter.com/_gnovi)
 
