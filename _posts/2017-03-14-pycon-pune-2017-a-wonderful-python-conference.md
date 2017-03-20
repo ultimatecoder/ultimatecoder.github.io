@@ -13,7 +13,7 @@ site.url}}/assets/images/pycon_pune_group_photo.jpg)
 The conference is worth attending if you are a student, programmer or a
 hobbyist.  If you are a swag-hungry then don't expect much as a swag from this
 conference. If you are a Devsprint lover, then this conference has the coolest
-Devsprint. A great number of keynote speackers are invited for this conference.
+Devsprint. A great number of keynote speakers are invited for this conference.
 
 
 ## Detailed Experience
@@ -145,8 +145,8 @@ the illness. Mostly I rested at the hotel or talked with people during the
 conference days.
 
 
-![pycon_pune_2017_keynote_speackers]({{
-site.url}}/assets/images/pycon_pune_2017_keynote_speackers.jpg)
+![pycon_pune_2017_keynote_speakers]({{
+site.url}}/assets/images/pycon_pune_2017_keynote_speakers.jpg)
 
 
 #### Volunteer Party
