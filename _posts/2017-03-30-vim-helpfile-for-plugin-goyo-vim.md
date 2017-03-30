@@ -5,6 +5,7 @@ date: "2017-03-30 12:02:58 +0530"
 tags: vim helpfile documentation
 ---
 
+![Goyo plugin]({{site.url}}/assets/images/goyo_vim_plugin.png)
 
 ## Goyo Plugin
 
