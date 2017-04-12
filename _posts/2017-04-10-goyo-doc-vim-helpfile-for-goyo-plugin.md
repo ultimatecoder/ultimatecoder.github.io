@@ -2,6 +2,10 @@
 layout: post
 title: "goyo-doc: Vim helpfile for goyo.vim plugin"
 date: "2017-04-10 17:51:48 +0530"
+excerpt: >
+  Goyo is the vim plugin which allows writers to focus on their writing while
+  they are writing. The plugin deactivates not required fancy windows which are
+  not useful at the time of using vim for writing. It provides certain
 ---
 
 ![goyo_doc_plugin]({{site.url}}/assets/images/goyo_doc_plugin.png)

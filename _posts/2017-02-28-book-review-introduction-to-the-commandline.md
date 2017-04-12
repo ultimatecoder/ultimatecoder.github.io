@@ -3,6 +3,11 @@ layout: post
 categories: book review
 title: Book review 'Introduction to the Command Line'
 tag: books linux programming
+excerpt: >
+  Every chapter will introduce a bunch of comands and will point to its
+  respective documentation for further learning. You should expect chapters
+  describing from the grep command to GNU Octave which is a scientific
+  programming language. The chapters are independent of each other.
 ---
 ![introduction_to_command_line]({{ site.url
 }}/assets/images/book_image_introduction_to_the_commandline.jpg)

@@ -3,6 +3,11 @@ layout: post
 title: "Pycon Pune 2017: A wonderful Python conference"
 date: "2017-03-14 18:18:02 +0530"
 tag: python conference
+excerpt: >
+  The conference is worth attending if you are a student, programmer or a
+  hobbyist.  If you are a swag-hungry then don't expect much as a swag from this
+  conference. If you are a Devsprint lover, then this conference has the coolest
+  Devsprint. A great number of keynote speakers are invited for this conference.
 ---
 
 ![pycon_pune_group_photo]({{
