@@ -3,6 +3,7 @@ layout: post
 categories: book review
 title: Book review 'i want 2 do project tell me wat 2 do'
 tag: books
+excerpt: Inspirational book for students who are at a fresher level.
 ---
 
 ![i_want_2_do_project_tell_me_wat_2_do]({{ site.url}}/assets/images/book_image_i_want_2_do_project_tell_me_wat_2_do.jpg)

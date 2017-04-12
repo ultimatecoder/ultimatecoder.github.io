@@ -2,6 +2,10 @@
 layout: post
 title: 2016 A year dedicated to Python Workshops
 tag: pythonworkshop
+excerpt: >
+  Beautiful 2017 has already started. While everybody is busy with preparing
+  resolutions for their new year I decided to look back and share my journey
+  here.
 ---
 
 Beautiful 2017 has already started. While everybody is busy with preparing 
