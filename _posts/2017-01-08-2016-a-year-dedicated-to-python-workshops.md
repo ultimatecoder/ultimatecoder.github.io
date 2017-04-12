@@ -8,7 +8,6 @@ excerpt: >
   here.
 ---
 
-
 Beautiful 2017 has already started. While everybody is busy with preparing 
 resolutions for their new year I decided to look back and share my journey
 here.

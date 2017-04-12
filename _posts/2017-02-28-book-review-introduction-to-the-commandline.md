@@ -9,7 +9,6 @@ excerpt: >
   describing from the grep command to GNU Octave which is a scientific
   programming language. The chapters are independent of each other.
 ---
-
 ![introduction_to_command_line]({{ site.url
 }}/assets/images/book_image_introduction_to_the_commandline.jpg)
 
