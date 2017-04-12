@@ -13,13 +13,13 @@ Beautiful 2017 has already started. While everybody is busy with preparing
 resolutions for their new year I decided to look back and share my journey
 here.
 
-![Python Express
-Ahmedabad]({{site.url}}/assets/images/python_workshop_piechart.png)
-
 After attending [PyCon India 2015](https://in.pycon.org/2015/) India 2015 I
 took an oath to spread the word of Python. It was looking simple at first
 glance with a guess of getting less invitations. But the estimate went wrong.
 Below is the summary of yearly progress highlight with word of experience.
+
+![Python workshop
+piechart]({{site.url}}/assets/images/python_workshop_piechart.png)
 
 During my last year I conducted 13 workshops at various colleges of
 state Gujarat and Rajasthan. 10 workshops were conducted targeting college
