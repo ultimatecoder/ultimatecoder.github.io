@@ -52,5 +52,8 @@ and using the plugin.
 
 * [Github][goyo-doc]
 
+
+###### Proofreader: [Farhaan Bukhsh](https://farhaanbukhsh.wordpress.com/)
+
 [goyo]: https://github.com/junegunn/goyo.vim
 [goyo-doc]: https://github.com/ultimatecoder/goyo-doc
