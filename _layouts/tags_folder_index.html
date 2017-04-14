@@ -1,0 +1,16 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+{% assign sorted_posts = site.tags | sort %}
+
+{% for post in sorted_posts %}
+{% assign tag = post | first %}
+  <ul class="post-list">
+    <h2>
+      <a class="post-link" href="/tags/{{ tag }}/">{{ tag | escape }}</a>
+    </h2>
+  </ul>
+{% endfor %}
