@@ -2,7 +2,9 @@
 layout: post
 title: "Pycon Pune 2017: A wonderful Python conference"
 date: "2017-03-14 18:18:02 +0530"
-tag: python conference
+tag:
+  - python
+  - conference
 excerpt: >
   The conference is worth attending if you are a student, programmer or a
   hobbyist.  If you are a swag-hungry then don't expect much as a swag from this

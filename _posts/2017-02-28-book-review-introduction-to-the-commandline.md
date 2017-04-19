@@ -2,7 +2,10 @@
 layout: post
 categories: book review
 title: Book review 'Introduction to the Command Line'
-tag: books linux programming
+tag:
+  - books
+  - linux
+  - programming
 excerpt: >
   Every chapter will introduce a bunch of comands and will point to its
   respective documentation for further learning. You should expect chapters
