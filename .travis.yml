@@ -1,5 +1,11 @@
 language: ruby
 rvm:
-  - 2.2
+  - 2.3.3
+
 install: gem install jekyll
-script: scripts/build
+script: ./scripts/build
+
+branches:
+  only:
+    - master
+    - /master-(.*)/ # test every branch which starts with "pages-"
