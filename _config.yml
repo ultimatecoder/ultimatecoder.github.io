@@ -33,6 +33,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 
 google_analytics: UA-57792488-6
 defaults:
