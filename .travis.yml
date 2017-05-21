@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.3.3
+
+script:
+  - ./scripts/build
+  - ./scripts/test
+
+branches:
+  only:
+    - master
+    - /master-(.*)/ # test every branch which starts with "pages-"
