@@ -1,1 +1,2 @@
+./scripts/build
 bundle exec htmlproofer ./_site
