@@ -98,7 +98,7 @@ Photos
 ![kskv_kachchh_university]({{site.url}}/assets/images/kskvku_photo.jpg)
 
 <p class="center">
-  At <a href="http://cs.kutchuni.edu.in/">K.S.K.V. Kachchh University</a>
+  At <a href="http://cs.kskvku.ac.in/">K.S.K.V. Kachchh University</a>
 </p>
 
 **- - -**
@@ -158,7 +158,7 @@ Photos
 ![Engineering college Ajmer]({{site.url}}/assets/images/engineering_college_ajmer.jpg)
 
 <p class="center">
-  At <a href="http://www.gweca.ac.in/web/">Government Women Engineering College Ajmer</a>
+  At <a href="http://www.gweca.ac.in">Government Women Engineering College Ajmer</a>
 </p>
 
 **- - -**
@@ -174,7 +174,7 @@ Photos
 ![Pycon India]({{site.url}}/assets/images/pycon_india.jpg)
 
 <p class="center">
-  At <a href="http://in.pycon.org/2016/">PyCon India, New Delhi</a>
+  At <a href="https://in.pycon.org/2016/">PyCon India, New Delhi</a>
 </p>
 
 **- - -**

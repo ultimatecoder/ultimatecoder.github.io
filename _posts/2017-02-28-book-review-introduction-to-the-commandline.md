@@ -137,4 +137,4 @@ minutes to drive the change.
 ###### Proofreader: [Dhavan Vaidya](http://codingquark.com/)
 
 
-[vim]: http://vim.org/
+[vim]: http://www.vim.org/

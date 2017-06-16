@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./scripts/build
+
+rsync -avr --rsh="ssh -i keypair.pem" --delete-after --delete-excluded _site/ travis_ftp@jaysinh.com:/home/travis_ftp/html/blog/

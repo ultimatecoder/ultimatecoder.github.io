@@ -1,1 +1,2 @@
-bundle exec htmlproofer ./_site
+./scripts/build
+bundle exec htmlproofer ./_site/ --file-ignore "/.+\/_site\/tags.+/" --url-ignore "/chameleon.kingdomofmysteries.xyz/,/https://reps.mozilla.org/e/maker-party-gujarat/" --only-4xx

@@ -92,7 +92,7 @@ Honza is the dude who loves contributing to
 too. He hacks on Python drivers at [Elastic](https://www.elastic.co/). I was
 impressed with his suggestions on a code design problem I was trying to solve
 from the past few months.  His suggestions on code design are worth noticing. He
-is a vimmer and maintains little [vim](http://vim.org) plugins as a part of his
+is a vimmer and maintains little [vim](http://www.vim.org) plugins as a part of his
 interest.
 
 #### [Stephen J. Turnbull](https://twitter.com/yasegumi)
@@ -172,7 +172,7 @@ instructed to hack at a huge cafeteria section. I myself contributed to Core
 Python. Nick Coghlan was mentoring for Core Python. I reviewed one PR, found one
 broken test case and wrote a fix of an existing issue with his help.  Honza was
 leading the development of Django web framework. A team of [Anand
-Chitipothu](http://anandology.com/) mentored for [Web2py](www.web2py.com/).
+Chitipothu](http://anandology.com/) mentored for [Web2py](http://www.web2py.com/).
 [Farhaan Bukhsh](https://twitter.com/fhackdroid) mentored for
 [Pagure](https://github.com/pypingou/pagure). John Hawley encouraged
 contributing to [MicroPython](https://micropython.org/). Terr Oda, Stephen
