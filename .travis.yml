@@ -8,11 +8,11 @@ branches:
   only:
   - master
   - "/master-(.*)/"
-before_deploy:
-- openssl aes-256-cbc -K $encrypted_550be8be9cea_key -iv $encrypted_550be8be9cea_iv
-  -in keypair.pem.enc -out keypair.pem -d
 deploy:
   provider: script
   script: scripts/deploy
   on:
     branch: master-fix-deployment
+before_install:
+- openssl aes-256-cbc -K $encrypted_550be8be9cea_key -iv $encrypted_550be8be9cea_iv
+  -in keypair.pem.enc -out keypair.pem -d
