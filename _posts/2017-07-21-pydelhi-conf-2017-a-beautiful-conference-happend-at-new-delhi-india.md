@@ -56,7 +56,7 @@ to mentor.
 
 PyDelhi conf is a regional level conference of Python programming language
 organized by PyDelhi community. It is their second year organizing this
-conference. Last year it was located at [JNU University](www.jnu.ac.in).  This
+conference. Last year it was located at [JNU University](http://www.jnu.ac.in).  This
 year it happened at [IIM, Lucknow](https://www.iiml.ac.in/) campus based in
 Noida, New Delhi, India. I enjoyed various talks which I will mention later
 here, a workshops section because I was conducting one and some the panel
