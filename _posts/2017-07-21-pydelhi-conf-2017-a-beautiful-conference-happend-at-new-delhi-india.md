@@ -18,7 +18,7 @@ tag:
 workshops, a dev sprints, both full-length and lightning talks. If you are a
 beginner, this conference is worth attending because there are free workshops.
 If you are an experienced developer, then you will surely get advanced level
-talks for you. Delhiitee should not miss the chance to attend this conference. I
+talks for you. Delhiites should not miss the chance to attend this conference. I
 conducted a workshop titled **“Tango with Django”** helping beginners to
 understand the Django web framework.
 
@@ -63,10 +63,10 @@ here, a workshops section because I was conducting one and some the panel
 discussions because people involved were having a good level of experience. 80%
 of the time slot was divided equally between 30 minutes talk and 2-hour workshop
 section.  10% were given to panel discussions and 10% was preserved for
-lightning talks.  The dev sprints was happening parallel with the conference. The
-early slot was given to workshops for both the days. One large conference hall
-was located on a 2nd floor of the building and two halls were at a ground floor.
-Food and beverages were served nicely on the base floor.
+lightning talks.  The dev sprints were happening parallel with the conference.
+The early slot was given to workshops for both the days. One large conference
+hall was located on a 2nd floor of the building and two halls were at a ground
+floor.  Food and beverages were served nicely on the base floor.
 
 ![Panel discussion]({{site.url}}/assets/images/pydelhi_conf_2017/pannel_disussion.jpg)
 
@@ -120,9 +120,10 @@ presented at the conference.
 * [**Concurrency in Python 3.0 world - Oh my! by Mr.Anand Pillai:**](
   https://youtu.be/QCZ31d9dqF4?list=PL3Aq1JLV2oFZFzSGsDUcc6BieBEvUDzJg)
   [Mr.Pillai][mr_anand] is well experienced in programming using Python
-  language. I like getting his advises on various programming topics. He
+  language. I like getting his advices on various programming topics. He
   explained how [async][async] IO can be leveraged to boost your programs. I got
-  few correct references on understanding latest API of [async][async] library.
+  few correct references on understanding latest API of the [async][async]
+  library.
 
 
 * [**Property based testing 101 by Aniket
@@ -175,8 +176,8 @@ already a name of famous book solving the same purpose.
 The dev sprints were happening parallel with the conference.
 [Mr.Pillai][mr_anand] was representing
 [Junction](https://github.com/pythonindia/junction). I decided to test few
-issues of [CPython][cpython], but didn’t do much. There were a bunch of people
-hacking but didn’t found anything interesting. The quality of chairs were such a
+issues of [CPython][cpython] but didn’t do much. There were a bunch of people
+hacking but didn’t find anything interesting. The quality of chairs was such an
 impressive that I have decided to buy the same for my home office.
 
 
@@ -194,7 +195,7 @@ impressive that I have decided to buy the same for my home office.
   nice mentorship from this community. You can conduct a session for beginners.
 
 * **Networking:** You will find senior employees of tech giants, owner of
-  innovative startups and professors from well known universities participating
+  innovative start-ups and professors from well-known universities participating
   in this conference.  It can be a good opportunity for you to network with
   them.
 
@@ -202,15 +203,14 @@ impressive that I have decided to buy the same for my home office.
 ### What was missing?
 
 * **Lecture hall arrangement:** It was difficult to frequently travel to the
-  second floor and come back to the ground floor. I ended using staircase most
-  of the time, because the elevator was not much species. I found most people
-  were spending their time on the ground floor than attending talks going on
+  second floor and come back to the ground floor. I found most people were
+  spending their time on the ground floor rather than attending talks going on
   upstairs.
 
 * **No corporate stalls:** Despite having corporate sponsors like Microsoft I
-  did’t find any stall of any company.
+  didn’t find any stall of any company.
 
-* **Venue for dev sprints:** The rooms was designed for teleconference
+* **The venue for dev sprints:** The rooms were designed for teleconference
   containing circularly arranged wooden tables. This was not creating a
   collaborative environment. Involved projects were not frequently promoted
   during the conference.
