@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Pydelhi Conf 2017: A beautiful conference happened in New Delhi, India"
+title: "PyDelhi Conf 2017: A beautiful conference happened in New Delhi, India"
 date: "2017-07-21 18:14:03 +0530"
 tag:
   - python
@@ -9,18 +9,19 @@ tag:
   - talks
 ---
 
-![Pydelhi Conf
+![PyDelhi Conf
 2017]({{site.url}}/assets/images/pydelhi_conf_2017/group_photo.jpg)
 
 ## TL;DR
 
 [PyDelhi conf 2017][pydelhi_conf_2017] was a two-day conference which served
-talks, lightning talks, workshops and dev sprint. If you are a beginner,
-attending this conference is worth because there are free workshops. If you are
-an experienced, attending this conference is worth because of curated advanced
-level talks. Delhiite should not miss the chance to attend this conference. I
-conducted a workshop titled **“Tango with Django”** helping beginners to
-understand Django web framework.
+workshops, a dev sprint , both full-length and lightning talks. If you are a
+beginner, attending this conference is worth attending because there are free
+workshops.  If you are an experienced developer, attending this conference is
+worth attending because of there will be advanced level talks. Delhiitee should
+not miss the chance to attend this conference. I conducted a workshop titled
+**“Tango with Django”** helping beginners to understand the Django web
+framework.
 
 
 ## Detailed Review
@@ -29,12 +30,12 @@ understand Django web framework.
 ### About the [PyDelhi community][pydelhi_community]
 
 
-![Pydelhi
+![PyDelhi
 Community]({{site.url}}/assets/images/pydelhi_conf_2017/pydelhi_community.jpg)
 
-<p class="center"> Pydelhi conf 2017 volunteers </p>
+<p class="center"> PyDelhi conf 2017 volunteers </p>
 
-The [Pydelhi community][pydelhi_community] was known as NCR Python Users Group
+The [PyDelhi community][pydelhi_community] was known as NCR Python Users Group
 before few years. This community is performing a role of an umbrella
 organization for other FLOSS communities across New Delhi, India. They are
 actively arranging monthly [meetups][pydelhi_meetup] on interesting topics. Last
@@ -47,15 +48,15 @@ New Delhi, India then you should not miss the chance to attend their
 like to meet and share your knowledge.
 
 
-### [Pydelhi conf 2017][pydelhi_conf_2017]
+### [PyDelhi conf 2017][pydelhi_conf_2017]
 
 
 ![Conference T-shirt]({{site.url}}/assets/images/pydelhi_conf_2017/t_shirt.jpg)
 
 <p class="center"> Conference T-shirt </p>
 
-Pydelhi conf is a regional level conference of Python programming language
-organized by PyDelhi community. [Pydelhi conf 2017][pydelhi_conf_2017] was
+PyDelhi conf is a regional level conference of Python programming language
+organized by PyDelhi community. [PyDelhi conf 2017][pydelhi_conf_2017] was
 two-day conference targeting talks and workshops scheduled last March. It was
 their second year of organizing this conference. Last year It was located at
 [JNU University](www.jnu.ac.in). This year it happened at [IIM,
@@ -196,9 +197,9 @@ few minutes on that chair I have decided to buy the same for my home office.
 * **Student discounts:** If you are a student then you will receive a discount
   on the conference ticket.
 
-* **Beginner friendly platform:** If you are novice speaker than submitting talk
-  here is worth. The conference is not only expecting sessions from experts but
-  also interested in presenting content for newbies.
+* **Beginner friendly platform:** If you are novice speaker than it is worth
+  submitting your talk. The conference is not only expecting sessions from
+  experts but also interested in presenting content for newbies.
 
 * **Networking:** You will find senior employees of tech giants, owner of
   innovative startups, professors of Universities attending this conference. It
