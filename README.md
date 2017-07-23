@@ -1,4 +1,4 @@
-![Travis build](https://travis-ci.org/ultimatecoder/ultimatecoder.github.io.svg?branch=master)
+![Travis build](https://travis-ci.org/ultimatecoder/Blog.svg?branch=master)
 
 # Blog - [Jaysinh's own heed](http://blog.jaysinh.com)
 

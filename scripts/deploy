@@ -1,5 +1,7 @@
 #!/bin/bash
 
+bundle exec jekyll build --config _config_production.yml,_config.yml
+
 chmod 600 ./keypair.pem || exit
 
 rsync -avr --rsh="ssh -i keypair.pem -o StrictHostKeyChecking=no" --delete-after --delete-excluded _site/ travis_ftp@jaysinh.com:/blog/ || exit
