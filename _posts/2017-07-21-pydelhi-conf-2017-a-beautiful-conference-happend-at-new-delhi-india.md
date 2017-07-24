@@ -15,12 +15,11 @@ tag:
 ## TL;DR
 
 [PyDelhi conf 2017][pydelhi_conf_2017] was a two-day conference which featured
-workshops, dev sprints, both full-length and lightning talks. If you are a
-beginner, this conference is worth attending because there are free workshops.
-If you are an experienced developer, then you will surely get advanced level
-talks for you. Delhiites should not miss the chance to attend this conference. I
-conducted a workshop titled **“Tango with Django”** helping beginners to
-understand the Django web framework.
+workshops, dev sprints, both full-length and lightning talks. There were
+workshop sessions without any extra charges. Delhiites should not miss the
+chance to attend this conference in future. I conducted a workshop titled
+**“Tango with Django”** helping beginners to understand the Django web
+framework.
 
 
 ## Detailed Review
@@ -59,13 +58,13 @@ organized by PyDelhi community. It is their second year organizing this
 conference. Last year it was located at [JNU University](http://www.jnu.ac.in).
 This year it happened at [IIM, Lucknow](https://www.iiml.ac.in/) campus based in
 Noida, New Delhi, India. I enjoyed various talks which I will mention later
-here, a workshops section because I was conducting one and some the panel
+here, a workshops section because I was conducting one and some panel
 discussions because people involved were having a good level of experience. 80%
 of the time slot was divided equally between 30 minutes talk and 2-hour workshop
 section.  10% were given to panel discussions and 10% was reserved for lightning
-talks.  The dev sprints were happening parallel with the conference.  The early
-slot was given to workshops for both the days. One large conference hall was
-located on a 2nd floor of the building and two halls were at a ground floor.
+talks.  The dev sprints were happening in parallel with the conference. The
+early slot was given to workshops for both the days. One large conference hall
+was located on a 2nd floor of the building and two halls at the ground floor.
 Food and beverages were served on the base floor.
 
 ![Panel discussion]({{site.url}}/assets/images/pydelhi_conf_2017/pannel_disussion.jpg)
@@ -101,8 +100,7 @@ Food and beverages were served on the base floor.
 * [**Mr. Chris Stucchio:**](https://www.chrisstucchio.com/) Mr. Stucchio is
   director of Data Science at [Wingify/ VWO](https://vwo.com/). I found him
   physically fit compared to other software developers (mostly of India). I
-  didn’t get much time to have a word with him. Keynote speech provided by him
-  was very impressive.
+  didn’t get much time to have a word with him.
 
 
 ### Interesting Talks
@@ -128,10 +126,10 @@ presented at the conference.
 
 * [**Property based testing 101 by Aniket
   Maithani:**](https://youtu.be/n5xUTcsrRns) I always enjoy chit chatting with
-  [Mr. Maithani](http://www.aniketmaithani.net/) during conferences. He has jolly
-  nature and always prepared with one liner. He discussed various strategies for
-  generating a demo data for test cases. I was amazed by his references, tips
-  and tricks for generating test data.
+  [Mr. Maithani](http://www.aniketmaithani.net/) during conferences. He has
+  jolly nature and always prepared with one liner. He discussed various
+  strategies for generating demo data for test cases. I was amazed by his
+  references, tips and tricks for generating test data.
 
 I love discussing with people rather than sit in on sessions. With that
 ace-reason, I always lose some important talks presented at the conference. I do
@@ -173,11 +171,11 @@ already a name of famous book solving the same purpose.
 
 <p class="center"> Me hacking at dev sprints section </p>
 
-The dev sprints were happening parallel with the conference.
-[Mr. Pillai][mr_anand] was representing
+The dev sprints were happening parallel with the conference.  [Mr.
+Pillai][mr_anand] was representing
 [Junction](https://github.com/pythonindia/junction). I decided to test few
 issues of [CPython][cpython] but didn’t do much. There were a bunch of people
-hacking but didn’t find anything interesting. The quality of chairs was such an
+hacking but didn’t find anything interesting. The quality of chairs was so an
 impressive that I have decided to buy the same for my home office.
 
 
@@ -219,8 +217,8 @@ impressive that I have decided to buy the same for my home office.
 ### Thank you PyDelhi community!
 
 I would like to thank all the known, unknown volunteers who performed their best
-in arranging this conference. Hoping positive for [PyDelhi][pydelhi_community]
-community and encouraging them to arrange such conferences in the future.
+in arranging this conference. I am encouraging [PyDelhi][pydelhi_community]
+community for keep organizing such an affable conference.
 
 * [Conference Photos](https://www.flickr.com/groups/pydelhi/)
 
