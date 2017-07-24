@@ -225,10 +225,7 @@ community for keep organizing such an affable conference.
 * [Talk videos](https://www.youtube.com/playlist?list=PL3Aq1JLV2oFZFzSGsDUcc6BieBEvUDzJg)
 
 
-###### Proofreaders: [Mr. Daniel Foerster](https://medium.com/@pydsigner), [Mr.
-Dhavan Vaidya](http://codingquark.com/), [Mr. Sayan
-Chowdhury](https://sayanchowdhury.dgplug.org/), [Mr. Trent
-Buck](https://www.emacswiki.org/emacs/TrentBuck)
+###### Proofreaders: [Mr. Daniel Foerster](https://medium.com/@pydsigner), [Mr.  Dhavan Vaidya](http://codingquark.com/), [Mr. Sayan Chowdhury](https://sayanchowdhury.dgplug.org/), [Mr. Trent Buck](https://www.emacswiki.org/emacs/TrentBuck)
 
 [pydelhi_conf_2017]:https://conference.pydelhi.org
 [pydelhi_community]:https://pydelhi.org/
