@@ -15,7 +15,7 @@ tag:
 ## TL;DR
 
 [PyDelhi conf 2017][pydelhi_conf_2017] was a two-day conference which featured
-workshops, a dev sprints, both full-length and lightning talks. If you are a
+workshops, dev sprints, both full-length and lightning talks. If you are a
 beginner, this conference is worth attending because there are free workshops.
 If you are an experienced developer, then you will surely get advanced level
 talks for you. Delhiites should not miss the chance to attend this conference. I
@@ -56,17 +56,17 @@ to mentor.
 
 PyDelhi conf is a regional level conference of Python programming language
 organized by PyDelhi community. It is their second year organizing this
-conference. Last year it was located at [JNU University](http://www.jnu.ac.in).  This
-year it happened at [IIM, Lucknow](https://www.iiml.ac.in/) campus based in
+conference. Last year it was located at [JNU University](http://www.jnu.ac.in).
+This year it happened at [IIM, Lucknow](https://www.iiml.ac.in/) campus based in
 Noida, New Delhi, India. I enjoyed various talks which I will mention later
 here, a workshops section because I was conducting one and some the panel
 discussions because people involved were having a good level of experience. 80%
 of the time slot was divided equally between 30 minutes talk and 2-hour workshop
-section.  10% were given to panel discussions and 10% was preserved for
-lightning talks.  The dev sprints were happening parallel with the conference.
-The early slot was given to workshops for both the days. One large conference
-hall was located on a 2nd floor of the building and two halls were at a ground
-floor.  Food and beverages were served nicely on the base floor.
+section.  10% were given to panel discussions and 10% was reserved for lightning
+talks.  The dev sprints were happening parallel with the conference.  The early
+slot was given to workshops for both the days. One large conference hall was
+located on a 2nd floor of the building and two halls were at a ground floor.
+Food and beverages were served on the base floor.
 
 ![Panel discussion]({{site.url}}/assets/images/pydelhi_conf_2017/pannel_disussion.jpg)
 
@@ -84,42 +84,42 @@ floor.  Food and beverages were served nicely on the base floor.
 ### Keynote speakers
 
 
-![Mr.Richardo Rocha]({{site.url}}/assets/images/pydelhi_conf_2017/ricardo.jpg)
+![Mr. Richardo Rocha]({{site.url}}/assets/images/pydelhi_conf_2017/ricardo.jpg)
 
-* [**Mr.Ricardo Rocha:**](
-  https://www.linkedin.com/in/ricardo-rocha-739aa718/?ppe=1) Mr.Rocha is a
+* [**Mr. Ricardo Rocha:**](
+  https://www.linkedin.com/in/ricardo-rocha-739aa718/?ppe=1) Mr. Rocha is a
   software engineer at [CERN][cern]. I got some time to talk with him
-  post-conference. We discussed what are his responsibilities at [CERN][cern]. I
-  was impressed when he explained how he is managing infrastructure with his
-  team. On inquiring opportunities available at [CERN][cern] he mentioned that
-  the organization is always looking for the talented developers.  New grads can
+  post-conference. We discussed his responsibilities at [CERN][cern]. I was
+  impressed when he explained how he is managing infrastructure with his team.
+  On inquiring opportunities available at [CERN][cern] he mentioned that the
+  organization is always looking for the talented developers.  New grads can
   keep an eye on various Summer Internship Programs which are very similar to
   Google Summer of Code program.
 
-![Mr.Chris Stucchio]({{site.url}}/assets/images/pydelhi_conf_2017/chris.jpg)
+![Mr. Chris Stucchio]({{site.url}}/assets/images/pydelhi_conf_2017/chris.jpg)
 
-* [**Mr.Chris Stucchio:**](https://www.chrisstucchio.com/) Mr.Stucchio is
+* [**Mr. Chris Stucchio:**](https://www.chrisstucchio.com/) Mr. Stucchio is
   director of Data Science at [Wingify/ VWO](https://vwo.com/). I found him
   physically fit compared to other software developers (mostly of India). I
   didn’t get much time to have a word with him. Keynote speech provided by him
-  was very much impressive.
+  was very impressive.
 
 
 ### Interesting Talks
 
 Because I took the wrong metro train, I was late for the inaugural ceremony. I
-also missed a keynote given by Mr.Rocha. Below talks were impressively
+also missed a keynote given by Mr. Rocha. Below talks were impressively
 presented at the conference.
 
-* [**Let’s talk about GIL by Mr.Amit Kumar:**](
+* [**Let’s talk about GIL by Mr. Amit Kumar:**](
   https://youtu.be/CwTnUvHo6d8?list=PL3Aq1JLV2oFZFzSGsDUcc6BieBEvUDzJg)
-  [Mr.Kumar](http://iamit.in/) discussed various ways to trace threads first and
+  [Mr. Kumar](http://iamit.in/) discussed various ways to trace threads first and
   then moved the track towards Global Interpreter Lock. He described why the GIL
   is important in [CPython][cpython].
 
-* [**Concurrency in Python 3.0 world - Oh my! by Mr.Anand Pillai:**](
+* [**Concurrency in Python 3.0 world - Oh my! by Mr. Anand Pillai:**](
   https://youtu.be/QCZ31d9dqF4?list=PL3Aq1JLV2oFZFzSGsDUcc6BieBEvUDzJg)
-  [Mr.Pillai][mr_anand] is well experienced in programming using Python
+  [Mr. Pillai][mr_anand] is well experienced in programming using Python
   language. I like getting his advices on various programming topics. He
   explained how [async][async] IO can be leveraged to boost your programs. I got
   few correct references on understanding latest API of the [async][async]
@@ -128,7 +128,7 @@ presented at the conference.
 
 * [**Property based testing 101 by Aniket
   Maithani:**](https://youtu.be/n5xUTcsrRns) I always enjoy chit chatting with
-  [Mr.Maithani](http://www.aniketmaithani.net/) during conferences. He has jolly
+  [Mr. Maithani](http://www.aniketmaithani.net/) during conferences. He has jolly
   nature and always prepared with one liner. He discussed various strategies for
   generating a demo data for test cases. I was amazed by his references, tips
   and tricks for generating test data.
@@ -138,10 +138,10 @@ ace-reason, I always lose some important talks presented at the conference. I do
 not forget to watch them once they are publicly available. This year I missed
 following talks.
 
-* [**Optimizing Django for building high-performance systems by Mr.Sanyam
+* [**Optimizing Django for building high-performance systems by Mr. Sanyam
   Khurana**](https://youtu.be/I41LTEWzluU)
 
-* [**Mocking in Python by Mr.Saurabh Kumar**](https://youtu.be/xo9QhfaefzY)
+* [**Mocking in Python by Mr. Saurabh Kumar**](https://youtu.be/xo9QhfaefzY)
 
 
 ### Volunteer Party
@@ -151,7 +151,7 @@ little tensed about my session happening on the next day. So, I decided to go
 home and improve the slides. I heard from friends that the party was awesome!
 
 
-### Workshop session by me
+### My workshop session
 
 ![Tango with Django]({{site.url}}/assets/images/pydelhi_conf_2017/talk_2.jpg)
 
@@ -174,7 +174,7 @@ already a name of famous book solving the same purpose.
 <p class="center"> Me hacking at dev sprints section </p>
 
 The dev sprints were happening parallel with the conference.
-[Mr.Pillai][mr_anand] was representing
+[Mr. Pillai][mr_anand] was representing
 [Junction](https://github.com/pythonindia/junction). I decided to test few
 issues of [CPython][cpython] but didn’t do much. There were a bunch of people
 hacking but didn’t find anything interesting. The quality of chairs was such an
@@ -192,7 +192,7 @@ impressive that I have decided to buy the same for my home office.
   on the conference ticket.
 
 * **Beginner friendly platform:** If you are novice speaker than you will get
-  nice mentorship from this community. You can conduct a session for beginners.
+  mentorship from this community. You can conduct a session for beginners.
 
 * **Networking:** You will find senior employees of tech giants, owner of
   innovative start-ups and professors from well-known universities participating
