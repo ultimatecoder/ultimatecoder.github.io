@@ -14,7 +14,7 @@ tag:
 
 ## TL;DR
 
-[PyDelhi conf 2017][pydelhi_conf_2017] was a two-day conference which served
+[PyDelhi conf 2017][pydelhi_conf_2017] was a two-day conference which featured
 workshops, a dev sprints, both full-length and lightning talks. If you are a
 beginner, this conference is worth attending because there are free workshops.
 If you are an experienced developer, then you will surely get advanced level
