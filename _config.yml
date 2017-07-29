@@ -30,6 +30,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-minifier
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
