@@ -7,6 +7,9 @@ tag:
   - conference
   - django
   - talks
+excerpts: >
+  PyDelhi conf 2017 was a two-day conference which featured workshops, dev
+  sprints, both full-length and lightning talks on Python programming language.
 ---
 
 ![PyDelhi Conf
