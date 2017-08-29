@@ -49,11 +49,11 @@ if you haven’t reboot your system after formatting the boot partition. I will
 describe the steps of restoring your [GRUB][GRUB] using this method in this
 post.
 
-If you had rebooted and unable to start the system then I will request to follow
-the steps described at [How to geek][how_to_geek] post rather than continuing
-here. If you are using Legacy BIOS rather than UEFI type then this post might
-not work for you. To identify which type your system has booted with, [follow
-this steps][bios_or_uefi].
+If you had rebooted and are unable to start the system then I will request to
+follow the steps described at [How to geek][how_to_geek] post rather than
+continuing here. If you are using Legacy BIOS rather than UEFI type then this
+post might not work for you. To identify which type your system has booted with,
+[follow this steps][bios_or_uefi].
 
 ## So let’s start!
 
@@ -72,9 +72,13 @@ first partition of the drive you are using for booting your operating system.
 
   ``` sudo mount /boot/efi ```
 
-  ![Mount boot partiton]({{
-  site.url}}/assets/images/how_to_fix_broken_grub/mounting_boot_efi_shell.png)
+  Sample output
 
+  ```
+  $sudo mount /boot/efi/
+  mount: /dev/sda1 is already mounted or /boot/efi busy
+         /dev/sda1 is already mounted on /boot/efi
+  ```
   If it is mounted, it will throw a warning indicating that the partition is
   already mounted. If it isn’t mounted, then the prompt will come back without
   any warning message.
@@ -82,6 +86,13 @@ first partition of the drive you are using for booting your operating system.
 * **Next, restore and update the [GRUB][GRUB]:** Run below command at your terminal.
 
   ``` sudo grub-install && update-grub ```
+
+  Sample output
+  ```
+  $ sudo grub-install && update-grub
+  Installing for x86_64-efi platform.
+  Installation finished. No error reported.
+  ```
 
   If there is any error, I will advise to not move further and try other
   options I mentioned above for restoring your [GRUB][GRUB].
@@ -116,10 +127,11 @@ identify the files beneath that directory. Check rebooting your system.
 
 I would like to thank [ioria][ioria] and [ducasse][ducasse], member of
 [#ubuntu][ubuntu_irc_channel] at Freenode, who invested a great amount of time
-to guide me in fixing this problem. I was complete dumb without their guidance.
-[#ubutu][ubuntu_irc_channel] has great members who are always forward to help
-you.
+to guide me in fixing this problem. [#ubutu][ubuntu_irc_channel] has great
+members who are always willing to help you.
 
+
+###### Proofreaders: [Dhavan Vaidya](http://codingquark.com/), Pentode@##linux(Freenode), parsnip@#emacs (Freenode)
 
 [GRUB]: https://www.gnu.org/software/grub/
 [trisquel]: https://trisquel.info/
