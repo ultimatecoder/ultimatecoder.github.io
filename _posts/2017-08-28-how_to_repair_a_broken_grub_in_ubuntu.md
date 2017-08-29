@@ -18,16 +18,16 @@ Yesterday, I was having some free time after lunch. I decided to complete a long
 term plan of checking the compatibility of few [Freedom Operating
 Systems][freedom] with my workstation. From [this list][freedom_oses], I decided
 to check [Trisquel][trisquel] OS first.  [Trisquel][trisquel] is freedom clone
-of world-famous OS Ubuntu. The simplest option was to prepare a live USB disk
-and boot [Trisquel][trisquel] from it. I inserted the USB drive and instructed
-the [Gparted][gparted] to format it. Bang!  That simple step ruined my entire
-Sunday evening. Instead of formatting my USB drive, I mistakenly formatted the
-boot partition! Without putting any extra measures, I formatted my root
-partition which is also a type [FAT][fat]. I was lucky enough to identify that I
-have formatted the partition from my SSD and not the USB drive. After taking
-advice from the people of [##linux][linux_irc_channel] I found, I will not be
-able to re-boot because the [GRUB][GRUB] is lost. In this post, I will describe
-the steps I followed to restore the [GRUB][GRUB].
+of world-famous OS Ubuntu. The simplest option was to prepare a live USB drive
+and boot the [Trisquel][trisquel] from it. I inserted the USB drive and
+instructed the [Gparted][gparted] to format it. Bang!  That simple step ruined
+my entire Sunday evening. Instead of formatting my USB drive, I mistakenly
+formatted the boot partition! Without putting any extra measures, I formatted my
+root partition which is also a type [FAT][fat]. I was lucky enough to identify
+that I have formatted the partition from my SSD and not the USB drive. After
+taking advice from the people of [##linux][linux_irc_channel] I found, I will
+not be able to re-boot because the [GRUB][GRUB] is lost. In this post, I will
+describe the steps I followed to restore the [GRUB][GRUB].
 
 
 ## Procedure of restoring the GRUB
@@ -121,7 +121,8 @@ file. Use below command to get the latest **UUID** of your boot partition.
   You will require the root privileges for writing to this file.
 
 We are done! Now when you will run `sudo ls -l /boot/efi`, you should able to
-identify the files beneath that directory. Check rebooting your system.
+identify the files beneath that directory. It is time to confirm by rebooting
+your system.
 
 ## Vote of Thanks!
 
