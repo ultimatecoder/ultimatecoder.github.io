@@ -131,6 +131,8 @@ I would like to thank [ioria][ioria] and [ducasse][ducasse], member of
 to guide me in fixing this problem. [#ubutu][ubuntu_irc_channel] has great
 members who are always willing to help you.
 
+*Note: While mentioning the GRUB in this post, I actually mean the GRUB2.*
+
 
 ###### Proofreaders: [Dhavan Vaidya](http://codingquark.com/), Pentode@##linux(Freenode), parsnip@#emacs (Freenode)
 
