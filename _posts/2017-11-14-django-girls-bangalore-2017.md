@@ -77,6 +77,8 @@ organize one for your town. If you are already a part of [Django
 Girls][django_girls] community, Why are you not sharing your experience with
 others?
 
+###### Proofreaders: [Kushal Das](kushaldas.in), [Dhavan Vaidya](http://codingquark.com/), [Isaul Vargas](https://github.com/Dude-X)
+
 [django_girls_bangalore]: https://djangogirls.org/bangalore/
 [django_girls]: https://djangogirls.org/
 [django]: https://www.djangoproject.com/
