@@ -70,9 +70,9 @@ open their wings by developing websites using skills they learned.  T-shirts,
 stickers and badges were distributed as event swags.
 
 You can find the list of all [Django Girls][django_girls] chapters
-[here](https://djangogirls.org/events/map/). Djangonauts are encouraged to become a
-mentor for [Django Girls][django_girls] events in your town. If can't
-finding any in your town, I encourage you to take the responsibility and
+[here](https://djangogirls.org/events/map/). Djangonauts are encouraged to
+become a mentor for [Django Girls][django_girls] events in your town. If you
+can't finding any in your town, I encourage you to take the responsibility and
 organize one for your town. If you are already a part of [Django
 Girls][django_girls] community, Why are you not sharing your experience with
 others?
