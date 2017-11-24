@@ -60,18 +60,18 @@ panel and taught girls about deploying their websites to
 done by my team.  They were able to demonstrate what they did to the world. I
 was more joyful than them for such achievement.
 
-The closing ceremony turned amusing event for us. 10 copies of [Two scopes of
+The closing ceremony turned amusing event for us. 10 copies of [Two scoops of
 Django](https://www.twoscoopspress.com) book were distributed to the
 participants chosen by random draw strategy.  I solemnly thank the authors of
 the book and [Pothi.com](https://pothi.com/) for gifting such a nice reference.
 Participants shared their experiences of the day. Mentors pinpointed helpful
-resources to look after. They insisted girls to not satisfy at such point and
+resources to look after. They insisted girls would not stop at this point and
 open their wings by developing websites using skills they learned.  T-shirts,
 stickers and badges were distributed as event swags.
 
 You can find the list of all [Django Girls][django_girls] chapters
-[here](https://djangogirls.org/events/map/). Djangonauts are shouted to become a
-mentor for [Django Girls][django_girls] events in your town. If you are not
+[here](https://djangogirls.org/events/map/). Djangonauts are encouraged to become a
+mentor for [Django Girls][django_girls] events in your town. If can't
 finding any in your town, I encourage you to take the responsibility and
 organize one for your town. If you are already a part of [Django
 Girls][django_girls] community, Why are you not sharing your experience with
