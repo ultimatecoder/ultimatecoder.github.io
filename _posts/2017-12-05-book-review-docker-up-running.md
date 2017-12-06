@@ -8,16 +8,13 @@ tags:
   - linux
 ---
 
-In the modern era of software engineering, terms are coined with a new wrapper.
-Such wrappers are required to make bread-and-butter out of it. Sometimes good
-marketed terms are adopted as best practices. I was having lot of confusions
-about this Docker technology. Even I was unfamiliar with the concept of
-containers. My certain goal was to get a higher level overview first and then
-come to a conclusion. I started reading about the Docker from its official
-getting started guide. That guide helped me to deploy this blog using Docker,
-but rather than solving initial it created few more questions. I decided to look
-for a better resource. By observing some Quora posts and Goodreads reviews, I
-decided to read “Docker Up & Running by K. Matthias & S. Kane”. I am sharing my
+Docker can be quite confusing. Before I read this book I was unfamiliar with the concept of containers. 
+My goal here, was to get a higher level overview of Docker and evaluate the practicality and purpuse of Docker. 
+I started reading about the Docker from its official getting started guide. 
+That guide helped me to host my blog using Docker technology,
+but after reading it, I still had a few lingering questions. I decided to look
+for a more comprehensive resource of information. By observing some Quora posts and Goodreads reviews, I
+decided to read “Docker Up & Running by K. Matthias & S. Kane”. Therefor I'm sharing my
 reading experience here.
 
 TL;DR
@@ -32,16 +29,15 @@ Detailed overview
 
 I got a printed copy at nearly 450 INR (roughly rounding to 7 USD, where 1 USD =
 65 INR) from Amazon. That prize is fairly acceptable with respect to the print
-quality. The book begins with a little history of the container (Docker is an
-implementation of the container). Initial chapters gives a higher level overview
+quality. The book begins with a brief history of containers (Docker containers are a new kind of virtualization). 
+The initial chapters gives a higher level overview
 of Docker tools combining Docker engine, Docker image, Docker registry, Docker
-compose and Docker container. Authors had indicated software patterns where
+compose and Docker container. The authors also mentionned software patterns where
 Docker is not suitable. I insist you do not skip that topic. I skipped the
 dedicated chapter on installing Docker. I will advise you to skip irrelevant
-topics because the chapters are not interlinked. You must have to read chapter 5
-discussing the behavior of the container. That chapter cleared many of my
-confusions. Somehow I lost in between, but re-reading helped. Such chapters are
-enough for getting an overview of Docker containers and image. Next chapters are
+topics because the chapters are not interlinked. Chapter 5
+discussing the behavior of containers is a must read. That chapter cleared many of my
+confusions. Somehow I was lost in between, but re-reading helped. Such chapters will give you an overview of Docker containers and images. Next chapters are
 focused more on best practices to setup the Docker engine. To be frank I was not
 aware of ways to debug the container at runtime. Nor about strategies for
 logging it. Even not on monitoring containers and a host machine. This book
@@ -61,8 +57,8 @@ dependency. I got to aware of how Docker containers are providing the
 virtualization layer using Namespaces. Docker limits the execution of container
 using CGroups (Control Groups). Namespaces and CGroups are GNU/Linux level
 dependencies used by Docker under the hood. If you are an API developer, then
-you should not skip Chapter 11. This chapter is discussing two well-followed
-patterns Twelve-Factor App and The Reactive manifesto. These guidelines are
+you should not skip Chapter 11. This chapter is discussing two recommended/popular
+patterns; Twelve-Factor App and The Reactive manifesto. These guidelines are
 helpful while designing the architecture of your services. The book concludes
 with further challenges of using Docker as a container tool.
 
@@ -75,22 +71,22 @@ not frequently reviewed. Hope responsible will confirm it soon.
 
 Who should read this book?
 
-* If you are developer who is unaware of the Docker or who is using Docker but
-  not aware of the architecture of it then I must advise to read this book.
+* If you are developer who is interested in learning more about Docker or you want to gain a more indept
+understanding of Docker architecture. I will advise you to read this book.
 
 * If your job is to setup deployment cluster using Docker then this book can
   help you to get informed about the Linux host internals. It will be helpful to
   get aware of various debugging strategies and security guidelines for
-  container infrastructure. Good to get aware of how Docker engine is
+  container infrastructur and to get familliar on how the Docker engine is
   communicating with your host workstation.
 
-* This book is not a reference book. If you already well aware of Docker, then I
+* This book is not a reference book. If you already have an indept knowledge of Docker, then I
   will not advise you to not read this book. In such case, Docker documentation
   can be the best reference.
 
-* I am assuming this book written, Docker was not supporting Windows platform
-  natively. The book purely focuses on GNU/Linux platform and highlight ways.
-  It highlights ways to run Docker over Windows using VM and Boot2Docker for
+* I am assuming that when this book was written, Docker was not supporting Windows platform
+  natively. The book purely focuses on using docker on the GNU/Linux platform.
+  However it does highlight ways to run Docker on Windows using VM and Boot2Docker for
   Non-Linux VM-based servers.
 
 
@@ -107,7 +103,7 @@ What to keep in mind?
 Conclusion
 
 * Your GNU/Linux skills are your Docker skills. Once you will understand what
-  internally Docker is using, your decisions will become more mature.
+  internally Docker is using, you will become more mature docker developer.
 
 
 Printed Copy
