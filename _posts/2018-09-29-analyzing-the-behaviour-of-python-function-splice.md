@@ -8,46 +8,112 @@ tag:
   - python trick questions
 ---
 
-Preface
-Last Friday, I was sitting at one of the good coffee shop in the Bangalore with
-my friend. Coffee and discussion is best combination to get relax. It was
-looking like a perfect Friday even, until my friend stroke an idea of asking me a
-Python question. He said, "What if I ask you one quiz question based on
-Python?". I said, "Aha! Is it something too much difficult?". Here he played the
-trick. He said, "It is a bit difficult, but not that much difficult. I gave a
-wrong answer when someone asked me this at my last interview.". I said, "Please
-go ahead!". He stood up, went for taking a tissue paper and wrote below code.
 
+![Title Image](/assets/images/python_slice_function/title_image.jpg)
+
+Last Friday, I was sitting at one of the good coffee shop of Bangalore with my
+friend. Coffee and discussion is the best combination to release stress. It was
+looking like a perfect Friday eve, until my friend stroke with an idea of asking
+me a question. Suddenly He said, "What if I ask you one quiz question based on
+Python?". "Aha! What is the level of difficulty?" I confusingly requestioned.
+Here he played the trick. He said, "It is a bit difficult, but not that much
+difficult". And added he gave a wrong answer to this question at this last
+interview. I said, "Then please go ahead!". He stood up, took a tissue paper
+from nearby counter and scathed below code on it.
+
+```python
 def my_function():
-  l = [0, 1, 2]
-  print(l[30:])
+    l = [0, 1, 2]
+    print(l[30:])
 
 my_function()
+```
 
-And asked me, "What will be the output of above code?". As soon I looked the
-code, I went through the iteration. I observed the l is a list. and in third
-line, it is trying to access slice a list with higher start value then length of
-the list. Which is clearly raising an IndexError because length of the l is 3. I
-said in my mind, "It is even less than a banana job. I should grab this
-opportunity to earn something more." I decided to take the advantage of the
-situation. Because I was sure, I will be on winning side, I said "What if we put
-some real world conditions to this problem?. If I answer correctly, You will pay
-the bill and If I am wrong, I will take the responsibility of paying this
-bill". He thought for a while and said affirmatively answered by saying "Done!".
-I said it will raise an IndexError. He thought for a while and said "Okay". And
-after some pause he asked "Are you sure about this?" Now, here there was some
-hints he gave. I said, "Yes I am". Within a second he opened his bag pack took
-his Laptop out and ran the code which he wrote on a tissue. I was sure and said
-"So did I won?" he turned a laptop towards me and said, "Not at all!". When I
-looked on screen, it was printed "[]". Damn! I lost the bet. I paid whatever the
-amount was and then this shocking question was all turning me down. After coming
-home, I sat on my bed with this thought running on my head.
+He asked me, "What will be the output of this code?". Now it was my turn to give
+the answer. I looked at the code and tried parsing it in my head by iterating
+through it. In my mind I observed the first line. It was defining a function
+which is looking correct. I moved my eyes to the next line. I observed the `l`
+is a variable of type `list` assigned with values ranging from 0 to 2. This
+either isn't looking problematic. So I moved my eyes to the next line where it
+was trying to print list by slicing it from starting value `30` to the infinity.
+"Well, the start value is 30 which is greater than the length of the list. This
+should clearly raise an `IndexError`" I said in my mind. After this what happen
+actually created a problem for me. I was about to speak an answer, but suddenly
+devil of me splashed. "It is even less than a banana job my dear. You should
+take some advantage to this opportunity for earning something more JAY!". To be
+frank, I was confused at that moment. Because things were looking in my control
+I negotiated with the Angle and decided to leverage the situation. I said, "How
+about betting for some real values?". By going closer I spoke, "If I answer
+correctly, You will pay the bill and If I am wrong, This will be a treat from my
+side". He thought for a while and shook his head as a sign of affirmation.  Now
+it was my turn to show the cards. I said, "It will raise an `IndexError`". He
+starred my face for a second and said "Okay". After pausing for a second he
+questioned, "Are you sure about this?". This was the hint he gave to me for
+taking another shot. I was overconfident by lurking thought seeded by the Devil
+and said, "Yes I am".  With that answer he instantly opened his bag pack, took
+his Laptop out and ran the code which he wrote on that tissue. When he paused
+typing I said in a strong voice, "So did I won?". He turned a laptop towards me
+and said, "Not at all!". When I looked on screen, the interpreter was printing
+`[]`. Damn! I lost the bet. It was a shocking moment for me. Why the hell `slice`
+is returning an empty list even when we are trying to `slice` it with a value
+which is greater than the length of it! It was surely looking unpythonic
+behavior. I paid whatever the bill amount was. Entire evening this question was
+all cramming on my mind. After coming home, I decided to find reasons for
+returning an empty list instead of raising an `IndexError` from a `slice`.
 
+Below are a few reasons mainly why returning an empty list makes more sense
+instead of raising an `IndexError` when the `slice` is called with values greater
+than the length of the Iterator object.
 
-It was a great shocking moment for me.  Why the hell the slice returns an empty
-list even when we are trying to slice it with an value which is above the length
-of it!. It was surely looking unpythonic behaviour at present. I decided to room
-round and thought more on this.
+For those who haven't used splice anytime in their life, I advise to read [this]
+[1] tutorial.
 
-Below are few reasons mainly why returning an empty list make sense instead of
-raising an IndexError in slice.
+* **Reason number one:**
+
+  Python lists are more commonly used at iterations. Consider below example:
+
+  ```python
+  numbers = [0, 1, 2, 3]
+  for number in numbers[30:]:
+      print(number)
+  ```
+
+  If `slice` was raising an `IndexError`, then above code could have been coded
+  like this
+
+  ```python
+  numbers = [0, 1, 2, 3]
+  try:
+      for number in numbers[30:]:
+          print(numbers)
+  except IndexError:
+      pass
+  ```
+
+  Or in another way below is also looking reasonable
+
+  ```python
+  numbers = [0, 1, 2, 3]
+  start = 30
+  if len(numbers) > start:
+      for number in numbers[start:]:
+          print(number)
+  ```
+
+  Both the approaches are looking little lengthy for an obvious reason of
+  preventing executing the loop if there are no elements in it. When we expect
+  the behavior of `slice` compared with using `for in`, it makes sense to return
+  an empty list instead of raising an `IndexError`.
+
+I am not getting further reasons for returning an empty list instead of raising
+the `IndexError` from `slice`. But I am sure, there will be. If you know any
+other potential reasons for such behavior of `slice`, please drop me a mail at
+**jaysinhp** at **gmail** dot **com** or contact me over a Twitter
+[@jaysinhp][3].  I will update the reasons at this post and give credits to you.
+
+I advise to read [this][2] guide for understanding how a splice function
+converts the input values. Especially rule number 4 referenced in it.
+
+[1]: https://docs.python.org/3.7/tutorial/introduction.html#lists
+[2]: https://docs.python.org/3.7/library/stdtypes.html#sequence-types-list-tuple-range
+[3]: https://twitter.com/jaysinhp
