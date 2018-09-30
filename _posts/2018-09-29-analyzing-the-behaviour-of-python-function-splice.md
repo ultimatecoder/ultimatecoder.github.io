@@ -13,7 +13,7 @@ tag:
 
 Last Friday, I was sitting in one of the good coffee shops in Bangalore with my
 friend. Coffee and discussion is the best combination to release stress. It was
-looking like a perfect Friday evening, until my friend stroke with an idea of
+looking like a perfect Friday evening, until my friend was struck by an idea of
 asking me a question.
 
 “What if I ask you a quiz question?” said by him at the middle of our
@@ -50,7 +50,7 @@ infinity.
 should raise an IndexError” I said in my mind. I was about to speak an answer,
 but suddenly Devil of me splashed.
 
-“It is even less than a banana job my dear,” the Devil said to me, “You should
+“It is even less than [a banana job][4] my dear,” the Devil said to me, “You should
 take some advantage to this opportunity my boy.”
 
 To be frank, I was confused at that moment. Because things were looking in my
@@ -146,3 +146,4 @@ the input values. Especially rule number 4 referenced there.
 [1]: https://docs.python.org/3.7/tutorial/introduction.html#lists
 [2]: https://docs.python.org/3.7/library/stdtypes.html#sequence-types-list-tuple-range
 [3]: https://twitter.com/jaysinhp
+[4]: http://catb.org/jargon/html/O/one-banana-problem.html
