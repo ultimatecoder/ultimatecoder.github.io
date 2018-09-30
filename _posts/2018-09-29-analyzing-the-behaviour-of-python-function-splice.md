@@ -26,7 +26,7 @@ that difficult. I gave a wrong answer to this question in my last interview.”
 
 I said confidently, “Then please go ahead.”
 
-He stood up, took a tissue paper from a nearby counter and scathed below code on
+He stood up, took a tissue paper from a nearby counter and scratched below code on
 it. And he asked me by pointing towards that code, “What will be the output of
 this code?”
 
