@@ -1,6 +1,10 @@
 language: ruby
 rvm:
 - 2.3.3
+before_install:
+  - bundle update listen
+install:
+  - bundle install --jobs=3 --retry=3 --full-index --deployment
 script:
 - "./scripts/build"
 - "./scripts/test"
