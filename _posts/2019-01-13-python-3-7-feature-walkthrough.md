@@ -29,7 +29,7 @@ learning Python, I am using the same API for putting breakpoints. With this
 release, ```breakpoint()``` is introduced as a built-in function. Because it is
 in a built-in scope, you don't have to import it from any module. You can call
 this function to put breakpoints in your code. This approach is handier  than
-importing ```pdf.set_trace()```.
+importing ```pdb.set_trace()```.
 
 ![Breakpoint function in Python 3.7](/assets/images/walkthrough_python_3_7/breakpoint_example.gif)
 
