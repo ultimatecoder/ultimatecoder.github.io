@@ -19,6 +19,11 @@ formatted string. All names wrapped inside the curly braces ({}) are resolved
 with the value of variable available in local scope. If the variable isn’t found
 in the local scope then it will raise a ```NameError``` exception.
 
+TODO: ADD below things
+1. Multiline Fstring
+2. FString by calling function or class methods
+3. Fstring as dictionary key
+4. Fstring by using capital 'F'.
 
 ### Demonstration
 
@@ -30,9 +35,6 @@ Below is the code used in the example
 name = "Jay"
 print(f"Hello {name}")
 ```
-
-[ TODO: Find, Are there any tool avilable to convert all a formatted strings to
-Fstrings?]
 
 In my view, this option of string formation is more concise and readable than
 all other options. I advise migrating your code to Fstrings if your Python
@@ -46,10 +48,10 @@ depreciate in the near future.
 
 * Fstring can be elaborated as "Formatted String".
 
-* Variable is always resolved at local scope. If it isn't found then it will
-  rise the ```NameError``` exception.
+* Variable is always resolved at a local scope. If it isn’t found then it will
+  raise the ```NameError``` exception.
 
 * You can format your strings by Fstring approach only if your Python
   interpreter version is greater than or equal to 3.6.
 
-* Existing string formation approches are not subjected to depricate soon.
+* Existing string formation approaches are not subjected to deprecate soon.
