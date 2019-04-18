@@ -82,11 +82,11 @@ I am not too much following this website, but I have followed this when I was
 actively looking for a change. You will find openings for Django developer from
 all around the world.
 
-#### [Open stack Jobs](https://www.openstack.org/community/jobs/)
+#### [OpenStack Jobs](https://www.openstack.org/community/jobs/)
 
-Open stack is a free and open source tool for cloud computing written in Python.
-In my opinion, Open stack is one another domain in Python. You should follow
-this if you are interested in shaping your career in Open stack.
+OpenStack is a free and open source tool for cloud computing written in Python.
+In my opinion, OpenStack is one another domain in Python. You should follow
+this if you are interested in shaping your career in OpenStack.
 
 #### [The free Python job board](http://pythonjobs.github.io/)
 
@@ -368,9 +368,12 @@ current openings before showing your interest to them.
 
 ### Pune
 
-* [Redhat](https://www.redhat.com/en)
+* [Red Hat](https://www.redhat.com/en)
 
 I am sure there are many good companies left from my catch. If you want to
 suggest any, then please write a blog post or tweet about it and share it with
 me.  I will reference it in this post and pay you the credits for it. I hope you
 had enjoyed reading this blog post. Happy hacking!
+
+
+###### Proofreader: [Chandan Kumar](https://twitter.com/chkumar246)
