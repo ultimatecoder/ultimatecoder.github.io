@@ -1,18 +1,49 @@
 tldr;
 
-scanner tries to identify open ports
-tool is based on possible venerability to fingerprint open TCP ports at client
-workstation using Javascript. I will explain my motivation for writing this
-tool.
+Chatur is a Javascript based port scanning tool. This tool proves the possible
+venrability of fingerprinting open TCP ports at client workstation using pure
+Javascript.
 
 
 Background
 
-Recently, I came across a possibility to fingerprint open TCP ports via browser
-based Javascript attack. This attack was discovered by AndLabs and briefly
-introduced at
+Recently, I came across a possibility to fingerprint open TCP ports at client
+workstation using browser side (aka clinet side) Javascript. This attack is
+discovered by AndLabs in the year 2010. In this section, I will explain the
+anatomy of this venerability. There are not regit pre-requisites, but it is
+better if you know how to perform an XML HTTP requests in Javascript.
+
+If I write a Javascript code to put a XHR to `http://localhost:8084` and host it
+at `xyz.com` then when you visit the `xyz.com` the browser will fire that XHR to
+port `8084` of your workstaion because `localhost` for your browser is your
+workstation. This gap explores many possibilities, one of them is timing to open
+a socket. If you fire bunch of XHR on different ports of localhost and capture
+the time browser took to open the socket then you can obser that response timing
+The browser(and operating system) takes bit longer time to open a socket on a
+non empty port.
+
+that request will touch the workstaion of whoever is browsing my website. This
+is possible because browser do not blocks XHR to `localhost`. Using this gap I
+and founder of this vunerability has observed one common pattern in response
+timings. Requests to non empty ports were returning late than ports where no
+service was running. Using this clue, if response on such port is delayed we can
+claim that there is an active service on such port
+
+I will suggested to read
 [this](http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html)
-blog post.
+blog post published by them to understand this vunerability at more detail
+level.
+
+If I do a XML HTTP request to a random port of localhost, response timing of
+empty ports is faster than the response of ports where any service is running.
+
+If you do a XML HTTP
+Requests to cross domain, browser will expect an appropriate CORS headers in
+response.  Requests which aren't returning a response with appropriate CORS
+headers are failed by the browser.
+
+Which means, anyone 
+
 
 CORS a half way protection
 
@@ -38,34 +69,11 @@ workstation.
 
 My motivation for writing this tool
 
-Now a days, browser is the most commonly used tool. Everyone is not a developer
-who can write Javascript to assert the possibility of this venerability. Despite
-trying hard, I failed to find the source code of JS-Recon. I am writing this
-tool so that anyone irrespective with their background can try and believe the
-possibility of this venerability.
-
-
-This venerability attracted me to try it out via their implementation done at
-JS-Recon tool. When I clicked at the mentioned link, I found the domain has
-expired.  I tried finding the source code of that tool, but ended with no
-results. I fired some XML HTTP Requests (XHR) to localhost at my Developer
-console and I was clearly seeing the pattern identified by the author.  
-
-
-he mentioned method by the author. For confirming his
-hypothesis I wanted to try this vulnerability. Unfortunately, mentioned tool
-isn't available at this moment. I tried best to find the source of that tool,
-but I ended with no results.
-
-
-seemed expired to me. That blog
-post describes a possible way to fingerprint open TCP ports at clinet
-workstation. The author claims that Ajax request to ports which are open at
-clinet worksation are delayed  were delayed than empty ports. 
-
-
-Firefox browser allows XML HTTP Requests (XHR) for localhost which allows is
-proposed by [here]() While reading that post I found their tool "JS-Recon"
-implementing this attack is not available.
+Browser is the most common tool used by us. Asserting this venerability requires
+knowledge of Javascript and everyone is not a developer. Despite trying hard, I
+failed to find the source code of JS-Recon (the tool written by AndLabs proving
+possibility of this attack). I am sharing this tool so that you or anyone else
+irrespective of your technical backgrounds can try this tool to verify the
+possibility of this attack.
 
 [cors_guide]: https://add-cors-guide.com
