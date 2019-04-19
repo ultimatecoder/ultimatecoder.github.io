@@ -1,6 +1,6 @@
 ![Title image]({{site.url}}/assets/images/python_jobs/main.jpg)
 
-Last few months were tiring. I hardly got any time for writing. I was busy
+The last few months were tiring. I hardly got any time for writing. I was busy
 preparing content for a workshop and talk. Hope I will get into my flow soon. In
 this post I will try to answer most important question of our life,
 “Employment!”. At conferences, IRC channels or even at the corner of a road, I
