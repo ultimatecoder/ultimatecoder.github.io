@@ -94,12 +94,12 @@ You will find openings from all domains of Python. Openings for remote developer
 is less in proportion to on-site opportunities. I didn't notice any
 opportunities by Indian tech companies at this portal.
 
-#### [AngleList](AngleList)
+#### [AngelList](https://angel.co)
 
-I have heard from people, that AngleList works. It worked for me to observe
+I have heard from people, that AngelList works. It worked for me to observe
 company culture, team and information about the investors of the company. I have
 mixed experience with this portal. I was contacted by few employers for joining
-their startups via AngleList, but they weren't so impressive. You should create
+their startups via AngelList, but they weren't so impressive. You should create
 your Angle List profile and upgrade it periodically.
 
 #### [HackerEarth](https://www.hackerearth.com/)
