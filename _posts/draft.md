@@ -1,8 +1,8 @@
 ![Title image]({{site.url}}/assets/images/python_jobs/main.jpg)
 
 The last few months were tiring. I hardly got any time for writing. I was busy
-preparing content for a workshop and talk. Hope I will get into my flow soon. In
-this post I will try to answer most important question of our life,
+preparing content for a workshop and talk. Hopefully I will get into my flow
+soon. In this post I will try to answer most important question of our life,
 “Employment!”. At conferences, IRC channels or even at the corner of a road, I
 had requested people to suggest good employment opportunities for me. I am not
 that extremely lucky fellow who has always landed on safe islands. My poor
