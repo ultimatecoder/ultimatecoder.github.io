@@ -1,19 +1,19 @@
-tldr;
+### TL;DR;
 
-Chatur is a Javascript based port scanning tool. This tool proves the
-possibility of fingerprinting open TCP ports at client workstation using pure
-Javascript.
+Chatur is a Javascript based port scanner. This tool proves the vulnerability of
+fingerprinting open TCP ports at client workstation using Javascript.
 
-Background
+
+### Background
 
 Recently, I came across a possibility to fingerprint open TCP ports at client
 workstation using browser side (aka client side) Javascript. This attack is
 discovered by AndLabs in the year 2010. In this section, I will explain the
-anatomy of this venerability in simple way. I expect you are able to understand
-the basics of XML HTTP Request.
+anatomy of this venerability in the simplest way. Knowledge of basic XML HTTP
+Request is expected to understand this post.
 
 
-What happens when you fire an XHR?
+#### What happens when you fire an XHR?
 
 Browser initiates a TCP socket at the destination URL and sends header and body
 of the request. Once header and body is sent, browser terminates the active
@@ -21,92 +21,60 @@ socket and waits for the server to deliver a response. That is how HTTP works
 under the hood.
 
 
+#### How to fingerprint open TCP port of client workstation?
+
+
 If I write a Javascript code to put a XHR to 'http://localhost:8084' and host
 that code at 'xyz.com' then when you visit the 'xyz.com' the browser will fire
-that XHR to port '8084' of your workstation because 'localhost' for your
-browser is your workstation. This gap invites many vulnerabilities for user.
-One of them is the possibility to fingerprint open TCP ports at client
-workstation.
+that XHR to port '8084' of your workstation because 'localhost' for your browser
+is your workstation. This gap invites many vulnerabilities for user.  One of
+them is the possibility to fingerprint open TCP ports at client workstation.
 
-While observing the timing browser took to receive headers from the server were
-highlighting a clear pattern. Responses
-
-
+While counting the time browser took to receive headers from the destination
+were highlighting a clear pattern. A XHR to port where no service was running
+were returning quick than a occupied port.
 
 
+#### Algorithm
 
-Browser opens a socket to the destination URL, sends header and then sends body
-of the request to the server and terminates the socket. That's how HTTP is
-designed. In our example, browser will open a TCP client socket to
-'http://localhost:8084' and sends header and body and terminates the socket.
-
-
-
+1. Fire a bunch of XHR at a target port of client workstation.
+2. Measure the time browser took to receive the response headers
+3. If timing of response headers is greater than the usual response time
+   repetitively consider that any service is running on that port.
 
 
-Using `XMLHTTPRequest.onstatechange` listener, we can identify
-
-
-If you want to fingerprint that any dedicated port at client workstation is
-open or closed, you just fire XHR to that port.
-
-
-
-
-
-If bunch of XHR on different ports of localhost and capture the time browser
-took to open the socket then you can obser that response timing The browser(and
-operating system) takes bit longer time to open a socket on a non-empty port.
-
-That request will touch the workstation of whoever is browsing my website. This
-is possible because browser do not block XHR to 'localhost'. Using this gap I
-and founder of this vunerability has observed one common pattern in response
-timings. Requests to non empty ports were returning late than ports where no
-service was running. Using this clue, if response on such port is delayed we
-can claim that there is an active service on such port.
-
-I will suggested reading
+You should read
 [this](http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html)
-blog post published by the AndLabs briefly describing this venerability at more
-detail level.
+blog post published by the AndLabs which is briefly describing this
+venerability.
 
-If I do an XML HTTP request to a random port of localhost, response timing of
-empty ports is faster than the response of ports where any service is running.
+### Chatur
 
-If you do a XML HTTP Requests to cross domain, browser will expect an
-appropriate CORS headers in response. Requests which aren't returning a
-response with appropriate CORS headers are failed by the browser.
+#### How to pronounce Chatur?
 
-Which means, anyone
+The Cha is Charming and Tur is Turn. Cha-Tur. You can observe
+[this][chatur_videp]
 
-CORS a half way protection
+#### How Chatur works?
 
-Ajax request to cross domain are prevented by a browser to avoid CORS attacks.
-If you are not aware what CORS is, then I suggest you to read
-[this][cors_guide] post before progressing further.
+Chatur accepts range of ports and floods all them with XHR. It captures the
+response time browser took to return the headers for all the requests. From
+header response time of all the requests, unusual hike is considered as occupied
+port.
 
-What happens when you do an ajax request to "https://localhost:8084"?
+#### My motivation for writing this tool
 
-If any service is running on port *8084* at your computer, then a browser will
-forward your request to that service. When that service returns any response,
-the browser checks for the CORS headers in the response. Responses without
-appropriate CORS headers are dropped by the browser. From the client side,
-there is no way to identify a reason for failed request. You can't identify
-that the request failed because of CORS error or 404 until you track it in
-debug console of your browser.
+Browser is the most common tool used by us. Asserting this venerability requires
+knowledge of Javascript and everyone is not a developer. Despite trying hard, I
+failed to find the source code of JS-Recon (the tool written by AndLabs proving
+possibility of this attack). I am sharing this tool so that you or anyone else
+irrespective of your technical backgrounds can try this tool to verify the
+possibility of this attack.
 
-The error response from the browser for XHR on ports where any service is
-running is later than ports where no services are running. The delay in coming
-response exposes this variability to finger print open TCP ports at client
-workstation.
 
-My motivation for writing this tool
+#### Feedback
 
-Browser is the most common tool used by us. Asserting this venerability
-requires knowledge of Javascript and everyone is not a developer. Despite
-trying hard, I failed to find the source code of JS-Recon (the tool written by
-AndLabs proving possibility of this attack). I am sharing this tool so that you
-or anyone else irrespective of your technical backgrounds can try this tool to
-verify the possibility of this attack.
+Please share your feedback with me.
 
 [cors_guide]: https://add-cors-guide.com
+[chatur_video]: https://add-chatur-video.com
