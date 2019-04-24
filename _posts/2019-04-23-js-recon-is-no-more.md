@@ -11,20 +11,20 @@ tag:
 ---
 
 In 2010, Andlabs discovered an attack to fingerprint open TCP ports at client
-workstation. You can read [this blog post][andlabs_blogpost] which is describing
-details of this method. JS-Recon was a tool implementing this attack on its
+workstations. You can read [this blog post][andlabs_blogpost] which describes
+the details of this method. JS-Recon was a tool implementing this attack on its
 client to prove the danger of this vulnerability. Unfortunately, JS-Recon is not
-available on mentioned link for unknown reasons. I tried my best to find the
-source code of that tool, but I was ended with no results. Because the source
-code of the tool is not available, the only way to confirm the possibility of
-this attack was to reconstruct it from steps mentioned at that blog post.
+available on the mentioned link for unknown reasons. I tried my best to find the
+source code of that tool, but I found no results. Because the source code of the
+tool is not available, the only way to confirm the possibility of this attack
+was to reconstruct it from the steps mentioned at that blog post.
 
 In this post I will share my experience of rebuilding this attack. Because this
-attack is from the front-end side, knowledge of basic Javascript API is
-expected from the reader. The original blog post does not include any code
-samples. For the easiness of the reader, I have prepared small code snippets
-and attached them with related sections. I expect you run code samples at the
-developer console of your browser.
+attack is from the front-end side, knowledge of basic Javascript API is expected
+from the reader. The original blog post does not include any code samples. For
+the benefit of the reader, I have prepared small code snippets and attached them
+with related sections. I expect you run code samples at the developer console of
+your browser.
 
 ### Glossary
 
@@ -135,7 +135,7 @@ Please find the source code of Chatur [on Github][chatur_github]. Chatur is a
 free software. Try this tool and share your thoughts with me. This is not a
 bulletproofed idea, but it works most of the time you will try.
 
-###### Proofreaders: Trent W. Buck
+###### Proofreaders: Trent W. Buck, [quakerquickoats via #emacs at Freenode](mailto:quakerquickoats@gmail.com)
 
 [andlabs_blogpost]: http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html
 [mdn_xhr]: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
