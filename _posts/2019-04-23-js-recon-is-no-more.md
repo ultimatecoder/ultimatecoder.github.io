@@ -135,7 +135,7 @@ Please find the source code of Chatur [on Github][chatur_github]. Chatur is a
 free software. Try this tool and share your thoughts with me. This is not a
 bulletproofed idea, but it works most of the time you will try.
 
-###### Proofreaders: [twb](https://www.emacswiki.org/emacs/TrentBuck#twb)
+###### Proofreaders: Trent W. Buck
 
 [andlabs_blogpost]: http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html
 [mdn_xhr]: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
