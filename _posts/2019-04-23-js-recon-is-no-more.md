@@ -11,14 +11,13 @@ tag:
 ---
 
 In 2010, Andlabs discovered an attack to fingerprint open TCP ports at client
-workstation. Here is a blog post from them which is describing this
-vulnerability. JS-Recon was a tool developed by them proving the weakness of
-the browser. Unfortunately JS-Recon is not available on mentioned link for
-unknown reasons. I tried my best to find the source code of that tool, but I
-was ended with no results. Because the source code of the tool is not
-available, the only way to confirm the possibility of this attack was to
-reconstruct it from steps mentioned by the author.rom steps mentioned by the
-author.
+workstation. You can read [this blog post][andlabs_blogpost] which is describing
+details of this method. JS-Recon was a tool implementing this attack on its
+client to prove the danger of this vulnerability. Unfortunately, JS-Recon is not
+available on mentioned link for unknown reasons. I tried my best to find the
+source code of that tool, but I was ended with no results. Because the source
+code of the tool is not available, the only way to confirm the possibility of
+this attack was to reconstruct it from steps mentioned at that blog post.
 
 In this post I will share my experience of rebuilding this attack. Because this
 attack is from the front-end side, knowledge of basic Javascript API is
@@ -34,12 +33,12 @@ developer console of your browser.
 * **XHR**: A short form of [XML Http Request][mdn_xhr].
 * **Socket**: A TCP/IP raw socket.
 
-According to the author, If I write a Javascript code to open a XHR to
-http://localhost:8084 and host that code at xyz.com then when you visit the
-xyz.com the browser will open that XHR to port 8084 of your workstation,
-because the localhost for your browser is your workstation. This gap invites
-many vulnerabilities for users. One of them is the possibility to fingerprint
-open TCP ports at client workstation.
+According to that blog post, If I write a Javascript code to open a XHR to
+`http://localhost:8084` and host that code at example.com then when you visit
+the example.com the browser will open that XHR to port `8084` of your
+workstation, because the localhost for your browser is your workstation. This
+gap invites many vulnerabilities for users. One of them is the possibility to
+fingerprint open TCP ports at client workstation.
 
 The author claims that the browser takes recognizably more time to open a XHR
 targeting an occupied port. Comparatively, time took to open a XHR aimed at an
@@ -54,7 +53,7 @@ var requestPort = function(port) {
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 1) {
       var timeTook = Date.now() - startTime;
-      console.log("Browser took : " + timeTook + " microsecounds to open.");
+      console.log("Browser took : " + timeTook + " microseconds to open.");
     }
   };
   startTime = Date.now();
@@ -84,17 +83,17 @@ above results, We can conclude that mentioned method is not giving different
 results for occupied and empty port. We can conclude that mentioned method by
 AndLabs is failing to distinguish an occupied port from a non occupied port.
 
-I tried hard to find any possible cause for the failure of this attack. I
-didn't found any certain evidences. May be our hardware or browser code has
-improved for opening a TCP sockets quicker than what it used to. I will not
-lie, but that abstract blog post by the AndLabs took sometime to understand the
-anatomy of this attack. I wasn't happy with going back from this point. Just
-for my satisfaction, I tried every possible combinations of `xhr.readyState`
-values to find any pattern. From my observation, I recognized that timing for
-returning a header from an occupied port was delayed. Comparatively, this
-response was quick for ports where no service was running. I am comparing the
-time browser took to return a response headers whereas in the previous method
-it was dependent on the time browser took for opening a socket.
+I tried hard to find any possible cause for the failure of this attack. I didn't
+found any conclusive evidences. May be our hardware or browser code has improved
+for opening a TCP sockets quicker than what it used to. I will not lie, but that
+abstract blog post by the AndLabs took sometime to understand the anatomy of
+this attack. I wasn't happy with going back from this point. Just for my
+satisfaction, I tried every possible combinations of `xhr.readyState` values to
+find any pattern. From my observation, I recognized that timing for returning a
+header from an occupied port was delayed. Comparatively, this response was quick
+for ports where no service was running. I am comparing the time browser took to
+return a response headers whereas in the previous method it was dependent on the
+time browser took for opening a socket.
 
 ```javascript
 var requestPort = function(port) {
@@ -103,7 +102,7 @@ var requestPort = function(port) {
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 2) {
       var timeTook = Date.now() - startTime;
-      console.log("Browser took : " + timeTook + " microsecounds to send response headers.");
+      console.log("Browser took : " + timeTook + " microseconds to send response headers.");
     }
   };
   startTime = Date.now();
@@ -125,15 +124,15 @@ go beyond 200 microseconds. Comparing this with a header response time of
 occupied ports, we can see that response time of non-empty port is recognizably
 higher than empty port.
 
-Browser is the most common tool used by us. Asserting this venerability requires
-knowledge of Javascript and everyone is not a developer. As I mentioned earlier,
-I failed to find the source code of JS-Recon (the tool written by AndLabs
-proving possibility of this attack). For those reasons, I decided to write a
-tool pioneered on my improvements on an attempt of Andlabs.  Today, I have
-successfully completed that tool. I have decided to name it
+Browser is the most common tool used by us. Asserting this vulnerability
+requires knowledge of Javascript and everyone is not a developer. As I mentioned
+earlier, I failed to find the source code of JS-Recon (the tool written by
+AndLabs proving possibility of this attack). For those reasons, I decided to
+write a tool pioneered on my improvements on an attempt of Andlabs.  Today, I
+have successfully completed that tool. I have decided to name it
 ["Chatur"][chatur_pronounciation]. Chatur means intelligent person in Hindi.
-Please find the source code of Chatur [here][chatur_github]. Chatur is a free
-software. Try this tool and share your thoughts with me. This is not a
+Please find the source code of Chatur [on Github][chatur_github]. Chatur is a
+free software. Try this tool and share your thoughts with me. This is not a
 bulletproofed idea, but it works most of the time you will try.
 
 [andlabs_blogpost]: http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html
