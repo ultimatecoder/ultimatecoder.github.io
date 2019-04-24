@@ -31,13 +31,13 @@ code samples in the developer console of your browser.
 * **Empty / Available port**: A port where no service is running.
 * **Non-empty / Occupied port**: A port where some service is running.
 * **XHR**: A short form of [XML Http Request][mdn_xhr].
-* **Socket**: A TCP/IP raw socket.
+* **Socket**: A raw TCP/IP socket.
 
 According to that blog post, If I write a Javascript code to open an XHR to
-`http://localhost:8084` and host that code at example.com then when you visit
+`http://localhost:8084` and host that code at `example.com` then when you visit
 the `example.com` the browser will open that XHR to port `8084` of your
 workstation, because the `localhost` for your browser is your workstation. This
-gap invites many vulnerabilities for users. One of them is the possibility to
+gap lead to many vulnerabilities for users. One of them is the possibility to
 fingerprint open TCP ports at the client workstation.
 
 That post further claims that the browser takes recognizably more time to open
@@ -62,11 +62,11 @@ var requestPort = function(port) {
 };
 ```
 
-You can paste this code at the developer console of your browser. Calling this
+You can paste this code into the developer console of your browser. Calling this
 function by writing `requestPort(8084)` at the console will open an XHR for port
 `8084`. The function will print how long the browser took to open a socket on
-that port. I invite you to call this function with a combination of empty and
-non-empty ports to observe various response timings.
+that port. I recommended you to call this function with a combination of empty
+and non-empty ports to observe the difference in response timings.
 
 I tried opening a bunch of requests using `requestPort()` function at suspected
 ports. For me the method was giving unidentifiable patterns in the time the
@@ -79,22 +79,20 @@ open a socket on empty port(8084) and non-empty port(27017).
 Above is a graph of 6000 requests done to measure the response times using the
 function I shared earlier. More than 5000 requests have ended in nearly no time.
 There were less than 1000 requests which ended in 1 microseconds. From the above
-results, We can conclude that mentioned method is not giving different results
+results, we can conclude that mentioned method is not giving different results
 for occupied and empty port. We can conclude that mentioned method by AndLabs is
 failing to distinguish occupied ports from nonoccupied ports.
 
 I tried hard to find possible causes for the failure of this attack. I didn't
-find any conclusive evidence. Perhaps our hardware or browser code has improved
-for opening a TCP sockets quicker than what it used to. I will be honest, but it
-took sometime to understand the anatomy of this attack from that abstract blog
-post by Andlabs. However I was not about to give up and turn back from this
-point. Just for my satisfaction, I tried every possible combinations of
-`xhr.readyState` values to find any pattern. From my observation, I recognized
-that timings for returning a header from an occupied port was delayed.
-Comparatively, this response was quick for ports where no service was running. I
-am comparing the time in which the browser returned a response headers whereas
-in the previous method it was dependent on the time browser took for opening a
-socket.
+find any conclusive evidence. I will be honest, but it took sometime to
+understand the anatomy of this attack from that abstract blog post by Andlabs.
+However I was not about to give up and turn back from this point. To satisfy my
+curiosity, I tried every possible combinations of `xhr.readyState` values to
+find any pattern. From my observation, I recognized the timings for returning a
+header from an occupied port were delayed.  Comparatively, this response was
+quick for ports where no service was running. I am comparing the time in which
+the browser returned a response headers whereas in the previous method it was
+dependent on the time browser took for opening a socket.
 
 ```javascript
 var requestPort = function(port) {
@@ -113,7 +111,7 @@ var requestPort = function(port) {
 };
 ```
 
-The above code will measure times the browser has taken to receive headers from
+The above code will measure the time browser has taken to receive headers from
 the destination. You should try calling the `requestPort` function with several
 combinations of empty and non-empty ports.
 
