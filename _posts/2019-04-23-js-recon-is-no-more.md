@@ -16,16 +16,15 @@ describes the details of this method. JS-Recon was a tool implementing this
 attack on its clients to prove the danger of this vulnerability. Unfortunately,
 JS-Recon is no longer available on the aforementioned link for unknown reasons.
 I tried my best to find the source code of this tool, but I finished with no
-results.  Because the source code of the tool is not available, the only way to
-confirm the possibility of this attack was to reconstruct it from the steps
-mentioned in that blog post.
+results.  For this reason, the only way to confirm the possibility of this
+attack was to reconstruct it from the steps mentioned in that blog post.
 
-In this post I will share my experience of rebuilding this attack. Because this
-attack is from the front-end side, knowledge of basic Javascript API is expected
-from the reader. The original blog post does not include any code samples. For
-the benefit of the reader, I have prepared small code snippets and attached them
-with related sections. I expect you run code samples in the developer console of
-your browser.
+In this post I will share my experience of rebuilding this attack. As this
+attack is from the front-end side, knowledge of basic Javascript and [XML Http
+Request API][mdn_xmr] are expected from the reader. The original blog post did
+not include any code samples. For the benefit of the reader, I have prepared
+small code snippets and attached them with related sections. I expect you run
+code samples in the developer console of your browser.
 
 ### Glossary
 
@@ -115,7 +114,7 @@ var requestPort = function(port) {
 ```
 
 The above code will measure times the browser has taken to receive headers from
-the destination. You should call the function requestPort() with several
+the destination. You should try calling the `requestPort` function with several
 combinations of empty and non-empty ports.
 
 ![Graph showing header response time.]({{site.url}}/assets/images/js_recon_is_no_more/graph_header_response_time.png)
@@ -129,19 +128,16 @@ higher than empty port.
 The web browser is the most common tool we use. Asserting this vulnerability
 requires knowledge of Javascript and everyone is not a developer. As I mentioned
 earlier, I failed to find the source code of JS-Recon (the tool written by
-AndLabs proving possibility of this attack). For those reasons, I decided to
-write a tool pioneered on my improvements on an attempt of Andlabs.  Today, I
-have successfully completed that tool. I have decided to name it
-["Chatur"][chatur_pronounciation]. Chatur means intelligent person in
-[Hindi][hindi].  Please find the source code of Chatur [on
-Github][chatur_github]. Chatur is a free software. Please try out this tool and
-share your thoughts on my tool with me. This is not a bulletproofed idea, but it
-works most of the time you will try.
+AndLabs proving possibility of this attack). For these reasons I have decided to
+write a tool based on my improvements on an attempt of Andlabs.  Today, I have
+successfully completed that tool. I have decided to name it
+["Chatur"][chatur_pronounciation]. You can find its source code [on
+Github][chatur_github]. Chatur is a free software. Please try it out and share
+your thoughts on it with me.
 
-###### Proofreaders: Trent W. Buck, [quakerquickoats via #emacs at Freenode](mailto:quakerquickoats@gmail.com)
+###### Proofreaders: Trent W. Buck, [quakerquickoats via #emacs at Freenode](mailto:quakerquickoats@gmail.com), [Vasilij Schneidermann](https://github.com/wasamasa)
 
 [andlabs_blogpost]: http://blog.andlabs.org/2010/12/port-scanning-with-html5-and-js-recon.html
 [mdn_xhr]: https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest
 [chatur_pronounciation]: https://youtu.be/Tih_dP_Tv2w
 [chatur_github]: https://github.com/ultimatecoder/chatur
-[hindi]: https://en.wikipedia.org/wiki/Hindi
