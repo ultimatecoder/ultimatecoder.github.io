@@ -2,16 +2,16 @@
 
 The last few months were tiring. I hardly got any time for writing. I was busy
 preparing content for a workshop and talk. Hopefully I will get into my flow
-soon. In this post I will try to answer most important question of our life,
-“Employment!”. At conferences, IRC channels or even at the corner of a road, I
-had requested people to suggest good employment opportunities for me. I am not
-that extremely lucky fellow who has always landed on safe islands. My poor
-experiences might help you to safe-guard yourself. I am happy that at least I
-was able to knock the door of good companies. I am sharing a list of portals and
-companies that I am following or followed in last few years. As a bonus point, I
-will highlight some uncommon ways which helped me to invite new opportunities.
-You should read this post if you are looking for **Python + web + (remote OR
-India)** related employment.
+soon. In this post I will try to answer one of the most important question of
+our life, “Employment!”. At conferences, IRC channels or even by the roadside, I
+had requested people to suggest good employment opportunities for me. I have not
+always been very lucky in finding greener pastures. I am writing this blog post
+so that you learn from my poor experience. I am happy that at least I was able
+to knock the door of good companies. I am sharing a list of portals and
+companies that I am following or have followed in last few years. As a bonus
+point, I will highlight some uncommon ways which helped me to invite new
+opportunities.  You should read this post if you are looking for **Python + web
++ (remote OR India)** related employment.
 
 *Disclaimer: I have not taken any money or any other type of bribes to advertise
 companies here.*
@@ -29,11 +29,11 @@ published.
 
 #### Mailing lists
 
-Mailing lists are good source to get notified for new job openings. In India,
+Mailing lists are a good source to get notified for new job openings. In India,
 there are a few active mailing lists managed by volunteers of that community.
-Often Job emails are tagged with "[JOB]" at the subject. I have configured my
-mail client to collect all the mails with "[JOB]" in their subject at a
-dedicated folder of my mail client. This configuration helps me to pay dedicated
+Often Job emails are tagged with "[JOB]" in the subject. I have configured my
+mail client to collect all the mails with "[JOB]" in their subject in a
+dedicated folder of my mail client. This configuration helps me to pay steady
 attention to them. Your Hack May Vary.
 
 Below is a list of active Python communities of India.
@@ -47,11 +47,11 @@ Below is a list of active Python communities of India.
 
 #### [HasJobs](https://hasjob.co/)
 
-HasJob is easy to follow job portal. You will find jobs posted by emerging to
+HasJob is an easy to follow job portal. You will find jobs posted by emerging to
 well-established startups of India. I am following HasJobs since day one of my
 career. During my early days, I used to run a
-[bot](https://github.com/ultimatecoder/hasjobbot) to apply all the latest
-openings of the day. I am not using that tool now, but If you are interested in
+[bot](https://github.com/ultimatecoder/hasjobbot) to apply to all the latest
+openings of the day. I am not using that tool now, but if you are interested in
 making that bot compatible with the new HasJob, please create an issue
 [here](https://github.com/ultimatecoder/hasjobbot/issues) to show your interest.
 I am happy to hack on this project again.
@@ -59,20 +59,21 @@ I am happy to hack on this project again.
 #### [Python now](https://www.pythonnow.com/)
 
 This job board is less known, but I find it effective for remote or visa
-sponsored positions. Mostly openings are from companies based out of Europe or
+sponsored positions. Openings are mostly from companies based out of Europe or
 United states.
 
 #### [Github profile](https://github.com/ultimatecoder)
 
-There were good amount of pinch from recruiters, employers via my Github
-profile. Where Github jobs has not helped me much, this worked for me. I would
-recommend adding your email address at your Github profile. It helps anyone to
-reach you. In my case most Github pinch were targeted to common audience. May be
-people are crawling Github profiles from popular open source projects and
-sending them opportunity emails. I don't consider anything wrong in the crawling
-way, but one should spend enough time in identifying my expertise. Contributing
-to open source projects for inviting better opportunities is a long subject
-which might be a good fit for an entire blog post.
+There were a good amount of invitations from recruiters, employers via my Github
+profile. While Github jobs has not helped me much, this worked for me. I would
+recommend adding your email address on your Github profile. It helps people to
+reach out to you. In my case, most of the Github invitations for employment were
+targeted to a common audience.  May be people are crawling Github profiles from
+popular open source projects and sending them opportunity emails. I don't
+consider anything wrong in the crawling way, but one should spend enough time in
+identifying my expertise. Contributing to open source projects for inviting
+better opportunities is a long subject which might be a good fit for an entire
+blog post.
 
 ### Not so strongly recommended
 
@@ -376,4 +377,4 @@ me.  I will reference it in this post and pay you the credits for it. I hope you
 had enjoyed reading this blog post. Happy hacking!
 
 
-###### Proofreader: [Chandan Kumar](https://twitter.com/chkumar246)
+###### Proofreader: [Chandan Kumar](https://twitter.com/chkumar246), [Pranaya Tomar](mailto:pranayatomar@msn.com)
