@@ -37,7 +37,7 @@ has a large collection of programmable boards. You will find boards like
 [Raspberry Pi](https://en.wikipedia.org/wiki/Raspberry_Pi), [Bana
 Pi](https://en.wikipedia.org/wiki/Banana_Pi),
 [Dragonboard](https://developer.qualcomm.com/hardware/dragonboard-410c),
-[Bigalbon](https://www.bigalsmods.com/product-p/1001.htm),
+[Bigalbon](https://beagleboard.org),
 [BBC-microbit](https://en.wikipedia.org/wiki/Micro_Bit) and the 3D printer.
 Furthermore, this space has a great collection of books on Compilers and
 Embedded programming. I managed to found few on open-source too. The owners are
