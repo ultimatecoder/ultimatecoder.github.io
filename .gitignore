@@ -16,3 +16,7 @@ Session.vim
 *~
 # auto-generated tag files
 tags
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
