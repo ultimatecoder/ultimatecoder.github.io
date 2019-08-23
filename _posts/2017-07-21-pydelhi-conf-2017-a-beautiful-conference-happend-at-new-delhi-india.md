@@ -232,7 +232,7 @@ community for keep organizing such an affable conference.
 
 [pydelhi_conf_2017]:https://conference.pydelhi.org
 [pydelhi_community]:https://pydelhi.org/
-[pydelhi_meetup]:http://wwww.meetup.com/pydelhi
+[pydelhi_meetup]:http://www.meetup.com/pydelhi
 [cern]:https://home.cern/
 [mr_anand]:https://youtu.be/I41LTEWzluU
 [cpython]:https://github.com/python/cpython
